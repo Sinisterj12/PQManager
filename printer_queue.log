@@ -1,0 +1,63 @@
+2024-11-08 07:21:14,000 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:22:41,716 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:22:56,720 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:23:11,724 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:23:26,733 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:23:41,742 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:23:56,753 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:24:48,111 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:24:50,440 - DEBUG - Importing BlpImagePlugin
+2024-11-08 07:24:50,445 - DEBUG - Importing BmpImagePlugin
+2024-11-08 07:24:50,445 - DEBUG - Importing BufrStubImagePlugin
+2024-11-08 07:24:50,448 - DEBUG - Importing CurImagePlugin
+2024-11-08 07:24:50,449 - DEBUG - Importing DcxImagePlugin
+2024-11-08 07:24:50,451 - DEBUG - Importing DdsImagePlugin
+2024-11-08 07:24:50,455 - DEBUG - Importing EpsImagePlugin
+2024-11-08 07:24:50,456 - DEBUG - Importing FitsImagePlugin
+2024-11-08 07:24:50,459 - DEBUG - Importing FliImagePlugin
+2024-11-08 07:24:50,461 - DEBUG - Importing FpxImagePlugin
+2024-11-08 07:24:50,464 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-08 07:24:50,465 - DEBUG - Importing FtexImagePlugin
+2024-11-08 07:24:50,466 - DEBUG - Importing GbrImagePlugin
+2024-11-08 07:24:50,467 - DEBUG - Importing GifImagePlugin
+2024-11-08 07:24:50,467 - DEBUG - Importing GribStubImagePlugin
+2024-11-08 07:24:50,468 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-08 07:24:50,469 - DEBUG - Importing IcnsImagePlugin
+2024-11-08 07:24:50,471 - DEBUG - Importing IcoImagePlugin
+2024-11-08 07:24:50,473 - DEBUG - Importing ImImagePlugin
+2024-11-08 07:24:50,475 - DEBUG - Importing ImtImagePlugin
+2024-11-08 07:24:50,476 - DEBUG - Importing IptcImagePlugin
+2024-11-08 07:24:50,476 - DEBUG - Importing JpegImagePlugin
+2024-11-08 07:24:50,477 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-08 07:24:50,477 - DEBUG - Importing McIdasImagePlugin
+2024-11-08 07:24:50,477 - DEBUG - Importing MicImagePlugin
+2024-11-08 07:24:50,479 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-08 07:24:50,479 - DEBUG - Importing MpegImagePlugin
+2024-11-08 07:24:50,480 - DEBUG - Importing MpoImagePlugin
+2024-11-08 07:24:50,497 - DEBUG - Importing MspImagePlugin
+2024-11-08 07:24:50,498 - DEBUG - Importing PalmImagePlugin
+2024-11-08 07:24:50,500 - DEBUG - Importing PcdImagePlugin
+2024-11-08 07:24:50,501 - DEBUG - Importing PcxImagePlugin
+2024-11-08 07:24:50,502 - DEBUG - Importing PdfImagePlugin
+2024-11-08 07:24:50,510 - DEBUG - Importing PixarImagePlugin
+2024-11-08 07:24:50,511 - DEBUG - Importing PngImagePlugin
+2024-11-08 07:24:50,511 - DEBUG - Importing PpmImagePlugin
+2024-11-08 07:24:50,511 - DEBUG - Importing PsdImagePlugin
+2024-11-08 07:24:50,512 - DEBUG - Importing QoiImagePlugin
+2024-11-08 07:24:50,512 - DEBUG - Importing SgiImagePlugin
+2024-11-08 07:24:50,513 - DEBUG - Importing SpiderImagePlugin
+2024-11-08 07:24:50,514 - DEBUG - Importing SunImagePlugin
+2024-11-08 07:24:50,515 - DEBUG - Importing TgaImagePlugin
+2024-11-08 07:24:50,516 - DEBUG - Importing TiffImagePlugin
+2024-11-08 07:24:50,516 - DEBUG - Importing WebPImagePlugin
+2024-11-08 07:24:50,520 - DEBUG - Importing WmfImagePlugin
+2024-11-08 07:24:50,521 - DEBUG - Importing XbmImagePlugin
+2024-11-08 07:24:50,523 - DEBUG - Importing XpmImagePlugin
+2024-11-08 07:24:50,524 - DEBUG - Importing XVThumbImagePlugin
+2024-11-08 07:25:03,120 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:25:18,124 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:25:33,136 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:25:48,152 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:26:03,156 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:26:18,166 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
+2024-11-08 07:26:33,183 - INFO - Queue cleared for KONICA MINOLTA C364SeriesPCL.
