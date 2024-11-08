@@ -70,34 +70,98 @@ root.protocol("WM_DELETE_WINDOW", minimize_to_tray)
 # Function to create a system tray icon
 def create_tray_icon():
     global tray_icon
-    icon_image = Image.new('RGB', (64, 64), (0, 128, 255))  # Brighter blue icon
-    draw = ImageDraw.Draw(icon_image)
-    draw.rectangle([16, 16, 48, 48], fill=(255, 255, 255))  # White rectangle in center
+    if tray_icon:
+        return  # If icon exists, don't create a new one
     
-    tray_icon = pystray.Icon(
-        "PrinterQueueManager",
-        icon_image,
-        "Printer Queue Manager",  # Hover text
-        menu=pystray.Menu(
+    try:
+        import os
+        import sys
+        
+        # Get the correct path whether running as script or exe
+        if getattr(sys, 'frozen', False):
+            # Running as exe
+            base_path = sys._MEIPASS
+        else:
+            # Running as script
+            base_path = os.path.dirname(os.path.abspath(__file__))
+            
+        icon_path = os.path.join(base_path, "Logo.ico")
+        icon_image = Image.open(icon_path)
+        
+        menu = (
             item('Show', show_window),
             item('Exit', exit_app)
         )
-    )
-    threading.Thread(target=tray_icon.run, daemon=True).start()  # Make thread daemon
+        
+        tray_icon = pystray.Icon(
+            "PQManager",
+            icon_image,
+            "Printer Queue Manager",
+            menu
+        )
+        tray_icon.run_detached()
+    except Exception as e:
+        logging.error(f"Error creating tray icon: {e}")
 
-# Function to show the window again
+# Modify the minimize function
+def minimize_to_tray():
+    root.withdraw()  # Hide the main window
+    if not tray_icon:  # Only create tray icon if it doesn't exist
+        create_tray_icon()
+
+# Modify the show_window function
 def show_window(icon=None, item=None):
-    icon.stop()  # Stop the tray icon
-    root.deiconify()  # Show the main window
+    global tray_icon
+    if tray_icon:
+        try:
+            tray_icon.visible = False  # Hide the icon first
+            tray_icon.stop()  # Then stop it
+            tray_icon = None
+        except Exception as e:
+            logging.error(f"Error hiding tray icon: {e}")
+    
+    root.after(100, root.deiconify)  # Small delay before showing window
+    root.lift()
+    root.focus_force()
 
-# Function to exit the app from the system tray
 def exit_app(icon=None, item=None):
     global tray_icon, is_monitoring
-    is_monitoring = False  # Stop the monitoring loop
+    is_monitoring = False
+    
+    # Cancel any pending monitoring tasks first
+    try:
+        root.after_cancel(monitor_queue)
+    except:
+        pass
+    
+    # Stop the tray icon
     if tray_icon:
-        tray_icon.stop()  # Stop the tray icon
-    root.quit()  # Close the main GUI event loop
-    root.destroy()  # Ensure window is destroyed
+        try:
+            tray_icon.visible = False
+            tray_icon.stop()
+            tray_icon = None
+        except Exception as e:
+            logging.error(f"Error stopping tray icon: {e}")
+    
+    # Destroy the root window
+    try:
+        root.quit()
+        root.update()  # Process any remaining events
+        root.destroy()
+    except Exception as e:
+        logging.error(f"Error destroying window: {e}")
+    
+    # Kill all threads
+    for thread in threading.enumerate():
+        if thread is not threading.current_thread():
+            try:
+                thread.join(timeout=0.5)
+            except:
+                pass
+    
+    # Force terminate
+    import os
+    os._exit(0)
 
 # Printer selection dropdown
 printer_dropdown = ttk.Combobox(root, textvariable=printer_var)
