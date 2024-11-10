@@ -1,0 +1,148 @@
+2024-11-10 00:29:06,761 - INFO - Service initializing...
+2024-11-10 00:29:06,761 - INFO - Looking for config file at: D:\CursorAI\PQManager\printer_config.json
+2024-11-10 00:29:06,761 - INFO - Found printer in config: AnyDesk v4 Printer Driver
+2024-11-10 00:29:06,761 - INFO - Loaded printer from config: AnyDesk v4 Printer Driver
+2024-11-10 00:29:06,761 - INFO - Service starting with printer: AnyDesk v4 Printer Driver
+2024-11-10 00:29:06,761 - ERROR - Service error: 'PrinterQueueService' object has no attribute 'clear_printer_queue'
+2024-11-10 00:29:06,761 - INFO - Service stop requested
+2024-11-10 00:31:21,437 - INFO - Service initializing...
+2024-11-10 00:31:21,438 - INFO - Looking for config file at: D:\CursorAI\PQManager\printer_config.json
+2024-11-10 00:31:21,438 - INFO - Found printer in config: AnyDesk v4 Printer Driver
+2024-11-10 00:31:21,438 - INFO - Loaded printer from config: AnyDesk v4 Printer Driver
+2024-11-10 00:31:21,438 - INFO - Service starting with printer: AnyDesk v4 Printer Driver
+2024-11-10 00:31:21,439 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:31:36,443 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:31:51,454 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:32:06,463 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:32:21,466 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:32:36,479 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:32:51,483 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:33:06,495 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:33:21,502 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:33:36,517 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:33:38,012 - INFO - Service stop requested
+2024-11-10 00:34:25,162 - INFO - Service initializing...
+2024-11-10 00:34:25,162 - INFO - Looking for config file at: D:\CursorAI\PQManager\printer_config.json
+2024-11-10 00:34:25,162 - INFO - Found printer in config: AnyDesk v4 Printer Driver
+2024-11-10 00:34:25,162 - INFO - Loaded printer from config: AnyDesk v4 Printer Driver
+2024-11-10 00:34:25,162 - INFO - Service starting with printer: AnyDesk v4 Printer Driver
+2024-11-10 00:34:25,163 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:34:40,174 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:34:55,190 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:35:10,196 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:35:25,209 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:35:40,221 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:35:55,225 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:36:10,233 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:36:25,240 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:36:40,241 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:36:55,248 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:36:59,385 - INFO - Service initializing...
+2024-11-10 00:36:59,385 - INFO - Looking for config file at: D:\CursorAI\PQManager\printer_config.json
+2024-11-10 00:36:59,386 - INFO - Found printer in config: AnyDesk v4 Printer Driver
+2024-11-10 00:36:59,386 - INFO - Loaded printer from config: AnyDesk v4 Printer Driver
+2024-11-10 00:36:59,386 - INFO - Service starting with printer: AnyDesk v4 Printer Driver
+2024-11-10 00:36:59,387 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:37:03,159 - INFO - Service stop requested
+2024-11-10 00:37:10,253 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:37:25,254 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:37:40,265 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:37:55,270 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:38:10,278 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:38:25,285 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:38:40,294 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:38:55,308 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:39:10,323 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:39:25,324 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:39:40,338 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:39:55,340 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:40:10,347 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:40:25,359 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:40:40,371 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:40:55,384 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:41:10,396 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:41:25,409 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:41:40,414 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:41:55,419 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:42:10,428 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:42:25,431 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:42:40,444 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:42:55,446 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:43:10,462 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:43:25,468 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:43:40,474 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:43:55,488 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:44:10,492 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:44:25,503 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:44:40,518 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:44:55,533 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:45:10,549 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:45:25,556 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:45:40,567 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:45:55,569 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:46:10,579 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:46:25,588 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:46:40,600 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:46:55,602 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:47:10,607 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:47:25,612 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:47:40,626 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:47:55,640 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:48:10,647 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:48:25,652 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:48:40,658 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:48:55,667 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:49:10,674 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:49:25,682 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:49:40,688 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:49:55,700 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:50:10,710 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:50:25,717 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:50:40,722 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:50:55,736 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:51:10,743 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:51:25,753 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:51:40,760 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:51:55,773 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:52:10,782 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:52:25,791 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:52:40,804 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:52:55,816 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:53:10,832 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:53:25,840 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:53:40,856 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:53:55,861 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:54:10,863 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:54:25,871 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:54:40,874 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:54:55,891 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:55:10,892 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:55:25,903 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:55:40,911 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:55:55,924 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:56:10,934 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:56:25,938 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:56:40,948 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:56:55,961 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:57:10,962 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:57:25,977 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:57:40,987 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:57:55,997 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:58:11,005 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:58:26,010 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:58:41,025 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:58:56,035 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:59:11,038 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:59:26,040 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:59:41,053 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 00:59:56,062 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:00:11,066 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:00:26,072 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:00:41,074 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:00:56,075 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:01:11,089 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:01:26,102 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:01:41,114 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:01:56,124 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:02:11,139 - INFO - Queue cleared for AnyDesk v4 Printer Driver
+2024-11-10 01:02:21,269 - INFO - Service stop requested

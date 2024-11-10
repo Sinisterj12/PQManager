@@ -6,6 +6,8 @@ from pystray import MenuItem as item
 from PIL import Image, ImageDraw
 import threading
 import logging
+import json
+import os
 
 # Setup logging
 logging.basicConfig(
@@ -171,10 +173,33 @@ printer_dropdown.set("Select Printer")
 
 # Function to handle printer selection and start monitoring
 def on_printer_select(event):
-    if printer_var.get() != "Select Printer":
-        start_monitoring()
+    selected_printer = printer_var.get()
+    if selected_printer and selected_printer != "Select Printer":
+        try:
+            with open('printer_config.json', 'w') as f:
+                config = {'printer': selected_printer}
+                json.dump(config, f)
+            logging.info(f"Saved printer selection: {selected_printer}")
+            start_monitoring()
+        except Exception as e:
+            logging.error(f"Error saving printer selection: {e}")
 
-printer_dropdown.bind("<<ComboboxSelected>>", on_printer_select)
+# Add this function to load the saved printer on startup
+def load_saved_printer():
+    try:
+        if os.path.exists('printer_config.json'):
+            with open('printer_config.json', 'r') as f:
+                config = json.load(f)
+                saved_printer = config.get('printer')
+                if saved_printer in printer_dropdown['values']:
+                    printer_var.set(saved_printer)
+                    logging.info(f"Loaded saved printer: {saved_printer}")
+                    start_monitoring()
+    except Exception as e:
+        logging.error(f"Error loading saved printer: {e}")
+
+# Call this after creating the printer dropdown
+load_saved_printer()
 
 # Button to manually clear the queue
 clear_button = tk.Button(root, text="Clear Printer Queue", command=clear_queue)

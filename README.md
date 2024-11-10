@@ -1,32 +1,61 @@
 # Printer Queue Manager
 
-A Windows utility that automatically monitors and clears printer queues to prevent printing issues.
+A Windows service that automatically monitors and clears printer queues to prevent printing issues.
 
 ## Features
-- Automatic printer queue monitoring and clearing
-- System tray integration
+- Runs as a Windows service for automatic queue management
+- System tray integration for easy control
 - Manual queue clearing option
-- Multiple printer support
+- Automatic printer queue monitoring (15-second intervals)
+- Persistent printer selection
 - Clean exit handling
 
 ## Requirements
-- Windows OS
-- Python 3.x (if running from source)
-- Required packages (if running from source):
-  - tkinter
-  - win32print
+### For Users
+- Windows 10/11
+- Administrative privileges for installation
+
+### For Developers
+- Python 3.x
+- Required packages:
+  - pywin32
   - pystray
   - Pillow
+  - tkinter (included with Python)
 
 ## Installation
-1. Download the latest release
-2. Extract PQManager.exe and Logo.ico to your preferred location
-3. Run PQManager.exe
+### User Installation
+1. Download the latest release (PQManagerSetup.exe)
+2. Run the installer as administrator
+3. Select your printer from the system tray application
+
+### Developer Installation
+1. Clone the repository
+2. Create virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
-1. Select your printer from the dropdown
-2. Click "Minimize to Tray" to run in background
-3. Right-click the tray icon to show/exit
-4. Use "Clear Printer Queue" button for manual clearing
+1. After installation, the service starts automatically
+2. Click the system tray icon to:
+   - Select your printer
+   - Manually clear queue
+   - View service status
+   - Exit application
 
-## Building from Source 
+## Building from Source
+1. Ensure all requirements are installed
+2. Run build script:
+   ```bash
+   build.bat
+   ```
+3. Installer will be created in `installer/Output/PQManagerSetup.exe`
+
+## Support
+For issues or feature requests, please create an issue in the GitHub repository.
