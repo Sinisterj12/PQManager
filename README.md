@@ -1,61 +1,93 @@
 # Printer Queue Manager
 
-A Windows service that automatically monitors and clears printer queues to prevent printing issues.
+A Windows application that monitors and clears printer queues automatically, helping prevent printer jams and stuck print jobs.
 
 ## Features
-- Runs as a Windows service for automatic queue management
-- System tray integration for easy control
+- Automatic printer queue monitoring (every 15 seconds)
+- System tray integration for minimal interference
 - Manual queue clearing option
-- Automatic printer queue monitoring (15-second intervals)
-- Persistent printer selection
-- Clean exit handling
+- Remembers your selected printer
+- Minimizes to system tray (works with both minimize button and close button)
+- Clean exit functionality from system tray
 
 ## Requirements
-### For Users
 - Windows 10/11
-- Administrative privileges for installation
-
-### For Developers
 - Python 3.x
-- Required packages:
-  - pywin32
-  - pystray
-  - Pillow
-  - tkinter (included with Python)
+- Required packages (automatically installed via requirements.txt):
+  - pywin32 (for printer management)
+  - pystray (system tray functionality)
+  - Pillow (image handling for tray icon)
+  - packaging (version management)
 
 ## Installation
-### User Installation
-1. Download the latest release (PQManagerSetup.exe)
-2. Run the installer as administrator
-3. Select your printer from the system tray application
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/PQManager.git
+   cd PQManager
+   ```
 
-### Developer Installation
-1. Clone the repository
-2. Create virtual environment:
+2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    venv\Scripts\activate
    ```
-3. Install dependencies:
+
+3. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
-1. After installation, the service starts automatically
-2. Click the system tray icon to:
-   - Select your printer
-   - Manually clear queue
-   - View service status
-   - Exit application
-
-## Building from Source
-1. Ensure all requirements are installed
-2. Run build script:
+1. Run the application:
    ```bash
-   build.bat
+   python main.py
    ```
-3. Installer will be created in `installer/Output/PQManagerSetup.exe`
+
+2. Select your printer from the dropdown menu
+3. The application will:
+   - Automatically monitor and clear the selected printer's queue
+   - Minimize to system tray when using the minimize button or close button
+   - Continue running in the background
+
+## System Tray Features
+- Right-click the tray icon to:
+  - Show the main window
+  - Exit the application
+- Left-click to show the main window
+
+## Project Structure
+```
+PQManager/
+├── assets/          # Contains application icons (Logo.ico)
+├── config/          # Configuration files (settings.json)
+├── logs/            # Application logs (printer_queue.log)
+├── src/             # Source code
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config_manager.py
+│   ├── printer_manager.py
+│   └── tray_manager.py
+├── .gitignore
+├── main.py          # Application launcher
+├── README.md
+└── requirements.txt
+```
+
+## Development
+- Main application code is in `src/main.py`
+- System tray functionality in `src/tray_manager.py`
+- Configuration management in `src/config_manager.py`
+- Printer operations in `src/printer_manager.py`
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+[Your chosen license]
 
 ## Support
 For issues or feature requests, please create an issue in the GitHub repository.

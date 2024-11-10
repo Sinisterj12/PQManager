@@ -1,0 +1,559 @@
+2024-11-10 12:17:51,708 - INFO - Retrieved printer list.
+2024-11-10 12:18:13,631 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:18:18,383 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:18:18,383 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:18:18,383 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:18:18,384 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:18:18,384 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:18:18,385 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:18:18,388 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:18:18,388 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:18:18,390 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:18:18,390 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:18:18,391 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:18:18,391 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:18:18,392 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:18:18,392 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:18:18,392 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:18:18,393 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:18:18,393 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:18:18,395 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:18:18,395 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:18:18,396 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:18:18,396 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:18:18,397 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:18:18,397 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:18:18,397 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:18:18,397 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:18:18,398 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:18:18,398 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:18:18,398 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:18:18,404 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:18:18,404 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:18:18,405 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:18:18,405 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:18:18,405 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:18:18,410 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:18:18,410 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:18:18,410 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:18:18,410 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:18:18,411 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:18:18,411 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:18:18,412 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:18:18,412 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:18:18,413 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:18:18,413 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:18:18,413 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:18:18,415 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:18:18,415 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:18:18,416 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:18:18,416 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:18:18,418 - INFO - Tray icon created.
+2024-11-10 12:18:24,236 - INFO - Tray icon stopped.
+2024-11-10 12:18:25,310 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "D:\CursorAI\PQManager\venv\Lib\site-packages\pystray\_win32.py", line 412, in _dispatcher
+    return int(icon._message_handlers.get(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CursorAI\PQManager\venv\Lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "D:\CursorAI\PQManager\venv\Lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "D:\CursorAI\PQManager\venv\Lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CursorAI\PQManager\src\main.py", line 45, in exit_app
+    root.destroy()
+  File "C:\Python312\Lib\tkinter\__init__.py", line 2389, in destroy
+    for c in list(self.children.values()): c.destroy()
+                                           ^^^^^^^^^^^
+  File "C:\Python312\Lib\tkinter\__init__.py", line 2667, in destroy
+    self.tk.call('destroy', self._w)
+RuntimeError: main thread is not in main loop
+2024-11-10 12:24:41,406 - ERROR - Error creating tray icon: name 'Image' is not defined
+2024-11-10 12:28:42,056 - ERROR - Error creating tray icon: name 'Image' is not defined
+2024-11-10 12:41:27,158 - INFO - Saved printer selection: AnyDesk v4 Printer Driver
+2024-11-10 12:41:27,172 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:41:42,176 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:41:45,269 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:41:45,270 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:41:45,270 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:41:45,270 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:41:45,271 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:41:45,272 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:41:45,274 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:41:45,275 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:41:45,276 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:41:45,277 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:41:45,278 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:41:45,278 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:41:45,278 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:41:45,279 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:41:45,279 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:41:45,279 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:41:45,279 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:41:45,281 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:41:45,281 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:41:45,282 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:41:45,283 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:41:45,283 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:41:45,283 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:41:45,283 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:41:45,284 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:41:45,285 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:41:45,285 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:41:45,285 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:41:45,291 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:41:45,291 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:41:45,292 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:41:45,293 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:41:45,293 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:41:45,298 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:41:45,298 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:41:45,298 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:41:45,298 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:41:45,299 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:41:45,299 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:41:45,300 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:41:45,300 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:41:45,301 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:41:45,301 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:41:45,301 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:41:45,302 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:41:45,303 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:41:45,304 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:41:45,305 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:41:45,306 - INFO - Tray icon created successfully
+2024-11-10 12:41:57,186 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:42:12,196 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:42:19,763 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:42:19,763 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:42:22,079 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:42:22,080 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:42:22,080 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:42:22,081 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:42:22,081 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:42:22,082 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:42:22,084 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:42:22,085 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:42:22,086 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:42:22,087 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:42:22,088 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:42:22,088 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:42:22,088 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:42:22,089 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:42:22,089 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:42:22,089 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:42:22,090 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:42:22,091 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:42:22,092 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:42:22,093 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:42:22,093 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:42:22,094 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:42:22,094 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:42:22,094 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:42:22,094 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:42:22,095 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:42:22,095 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:42:22,096 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:42:22,101 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:42:22,102 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:42:22,103 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:42:22,103 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:42:22,103 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:42:22,108 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:42:22,108 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:42:22,108 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:42:22,108 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:42:22,109 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:42:22,109 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:42:22,110 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:42:22,110 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:42:22,111 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:42:22,111 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:42:22,111 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:42:22,112 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:42:22,113 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:42:22,114 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:42:22,114 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:42:22,116 - INFO - Tray icon created successfully
+2024-11-10 12:42:34,780 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:42:49,783 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:43:04,793 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:43:19,807 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:43:34,812 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:43:49,828 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:44:04,837 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:44:19,105 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:44:19,105 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:44:22,799 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:44:22,800 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:44:22,800 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:44:22,801 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:44:22,801 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:44:22,802 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:44:22,804 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:44:22,806 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:44:22,807 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:44:22,807 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:44:22,808 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:44:22,808 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:44:22,809 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:44:22,809 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:44:22,809 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:44:22,810 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:44:22,810 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:44:22,811 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:44:22,812 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:44:22,813 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:44:22,813 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:44:22,814 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:44:22,814 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:44:22,814 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:44:22,814 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:44:22,815 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:44:22,815 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:44:22,816 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:44:22,821 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:44:22,821 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:44:22,822 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:44:22,822 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:44:22,822 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:44:22,827 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:44:22,827 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:44:22,827 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:44:22,827 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:44:22,828 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:44:22,828 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:44:22,829 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:44:22,829 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:44:22,830 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:44:22,830 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:44:22,830 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:44:22,831 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:44:22,832 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:44:22,833 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:44:22,833 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:44:22,834 - INFO - Tray icon created successfully
+2024-11-10 12:44:34,106 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:45:38,489 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:45:38,490 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:45:43,546 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:45:43,547 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:45:43,547 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:45:43,547 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:45:43,547 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:45:43,549 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:45:43,551 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:45:43,552 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:45:43,553 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:45:43,554 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:45:43,554 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:45:43,554 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:45:43,555 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:45:43,555 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:45:43,555 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:45:43,556 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:45:43,556 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:45:43,558 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:45:43,559 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:45:43,560 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:45:43,560 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:45:43,560 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:45:43,560 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:45:43,560 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:45:43,561 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:45:43,562 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:45:43,562 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:45:43,563 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:45:43,568 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:45:43,568 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:45:43,568 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:45:43,569 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:45:43,569 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:45:43,574 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:45:43,575 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:45:43,575 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:45:43,575 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:45:43,575 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:45:43,576 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:45:43,576 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:45:43,577 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:45:43,577 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:45:43,578 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:45:43,578 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:45:43,579 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:45:43,580 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:45:43,580 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:45:43,580 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:45:43,582 - INFO - Tray icon created successfully
+2024-11-10 12:45:53,501 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:47:31,661 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:47:31,662 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:47:34,296 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:47:34,297 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:47:34,297 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:47:34,298 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:47:34,299 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:47:34,299 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:47:34,302 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:47:34,303 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:47:34,304 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:47:34,304 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:47:34,306 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:47:34,306 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:47:34,306 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:47:34,307 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:47:34,307 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:47:34,307 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:47:34,308 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:47:34,309 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:47:34,310 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:47:34,311 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:47:34,312 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:47:34,312 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:47:34,312 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:47:34,312 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:47:34,312 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:47:34,313 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:47:34,313 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:47:34,314 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:47:34,319 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:47:34,319 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:47:34,321 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:47:34,321 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:47:34,321 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:47:34,326 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:47:34,326 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:47:34,326 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:47:34,326 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:47:34,327 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:47:34,327 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:47:34,328 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:47:34,328 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:47:34,329 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:47:34,329 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:47:34,329 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:47:34,331 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:47:34,332 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:47:34,333 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:47:34,333 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:47:34,335 - INFO - Tray icon created successfully
+2024-11-10 12:47:46,678 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:48:03,593 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:48:03,594 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:48:05,510 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:48:05,511 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:48:05,511 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:48:05,511 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:48:05,512 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:48:05,512 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:48:05,515 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:48:05,515 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:48:05,517 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:48:05,517 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:48:05,518 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:48:05,518 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:48:05,519 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:48:05,519 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:48:05,519 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:48:05,520 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:48:05,520 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:48:05,522 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:48:05,523 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:48:05,523 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:48:05,524 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:48:05,524 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:48:05,524 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:48:05,524 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:48:05,525 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:48:05,526 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:48:05,526 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:48:05,526 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:48:05,531 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:48:05,531 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:48:05,532 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:48:05,533 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:48:05,533 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:48:05,538 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:48:05,538 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:48:05,538 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:48:05,538 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:48:05,539 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:48:05,539 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:48:05,540 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:48:05,540 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:48:05,541 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:48:05,541 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:48:05,541 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:48:05,542 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:48:05,543 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:48:05,543 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:48:05,544 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:48:05,545 - INFO - Tray icon created successfully
+2024-11-10 12:48:18,599 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:48:33,610 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:48:48,619 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:03,624 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:18,637 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:25,537 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:49:25,538 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:27,711 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:49:27,712 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:49:27,712 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:49:27,713 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:49:27,713 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:49:27,714 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:49:27,716 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:49:27,717 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:49:27,717 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:49:27,718 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:49:27,719 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:49:27,720 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:49:27,720 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:49:27,720 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:49:27,720 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:49:27,721 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:49:27,721 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:49:27,723 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:49:27,724 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:49:27,724 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:49:27,725 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:49:27,725 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:49:27,725 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:49:27,725 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:49:27,726 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:49:27,726 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:49:27,726 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:49:27,727 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:49:27,731 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:49:27,732 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:49:27,733 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:49:27,733 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:49:27,733 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:49:27,737 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:49:27,738 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:49:27,738 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:49:27,738 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:49:27,739 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:49:27,739 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:49:27,740 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:49:27,740 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:49:27,741 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:49:27,741 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:49:27,741 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:49:27,742 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:49:27,742 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:49:27,743 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:49:27,744 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:49:27,745 - INFO - Tray icon created successfully
+2024-11-10 12:49:40,554 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:47,983 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:49:49,076 - INFO - Tray icon created successfully
+2024-11-10 12:49:55,562 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:52:11,960 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 12:52:11,960 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 12:52:13,557 - DEBUG - Importing BlpImagePlugin
+2024-11-10 12:52:13,557 - DEBUG - Importing BmpImagePlugin
+2024-11-10 12:52:13,557 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 12:52:13,558 - DEBUG - Importing CurImagePlugin
+2024-11-10 12:52:13,558 - DEBUG - Importing DcxImagePlugin
+2024-11-10 12:52:13,559 - DEBUG - Importing DdsImagePlugin
+2024-11-10 12:52:13,561 - DEBUG - Importing EpsImagePlugin
+2024-11-10 12:52:13,562 - DEBUG - Importing FitsImagePlugin
+2024-11-10 12:52:13,563 - DEBUG - Importing FliImagePlugin
+2024-11-10 12:52:13,564 - DEBUG - Importing FpxImagePlugin
+2024-11-10 12:52:13,565 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 12:52:13,565 - DEBUG - Importing FtexImagePlugin
+2024-11-10 12:52:13,565 - DEBUG - Importing GbrImagePlugin
+2024-11-10 12:52:13,566 - DEBUG - Importing GifImagePlugin
+2024-11-10 12:52:13,566 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 12:52:13,566 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 12:52:13,567 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 12:52:13,568 - DEBUG - Importing IcoImagePlugin
+2024-11-10 12:52:13,569 - DEBUG - Importing ImImagePlugin
+2024-11-10 12:52:13,569 - DEBUG - Importing ImtImagePlugin
+2024-11-10 12:52:13,570 - DEBUG - Importing IptcImagePlugin
+2024-11-10 12:52:13,570 - DEBUG - Importing JpegImagePlugin
+2024-11-10 12:52:13,570 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 12:52:13,570 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 12:52:13,571 - DEBUG - Importing MicImagePlugin
+2024-11-10 12:52:13,571 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 12:52:13,572 - DEBUG - Importing MpegImagePlugin
+2024-11-10 12:52:13,572 - DEBUG - Importing MpoImagePlugin
+2024-11-10 12:52:13,577 - DEBUG - Importing MspImagePlugin
+2024-11-10 12:52:13,577 - DEBUG - Importing PalmImagePlugin
+2024-11-10 12:52:13,578 - DEBUG - Importing PcdImagePlugin
+2024-11-10 12:52:13,578 - DEBUG - Importing PcxImagePlugin
+2024-11-10 12:52:13,578 - DEBUG - Importing PdfImagePlugin
+2024-11-10 12:52:13,583 - DEBUG - Importing PixarImagePlugin
+2024-11-10 12:52:13,583 - DEBUG - Importing PngImagePlugin
+2024-11-10 12:52:13,583 - DEBUG - Importing PpmImagePlugin
+2024-11-10 12:52:13,583 - DEBUG - Importing PsdImagePlugin
+2024-11-10 12:52:13,584 - DEBUG - Importing QoiImagePlugin
+2024-11-10 12:52:13,584 - DEBUG - Importing SgiImagePlugin
+2024-11-10 12:52:13,585 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 12:52:13,585 - DEBUG - Importing SunImagePlugin
+2024-11-10 12:52:13,586 - DEBUG - Importing TgaImagePlugin
+2024-11-10 12:52:13,586 - DEBUG - Importing TiffImagePlugin
+2024-11-10 12:52:13,586 - DEBUG - Importing WebPImagePlugin
+2024-11-10 12:52:13,587 - DEBUG - Importing WmfImagePlugin
+2024-11-10 12:52:13,588 - DEBUG - Importing XbmImagePlugin
+2024-11-10 12:52:13,588 - DEBUG - Importing XpmImagePlugin
+2024-11-10 12:52:13,589 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 12:52:13,590 - INFO - Tray icon created successfully
+2024-11-10 12:52:18,320 - INFO - Tray icon created successfully
+2024-11-10 12:52:22,270 - INFO - Tray icon created successfully
+2024-11-10 12:52:26,964 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 15:17:21,475 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-10 15:17:21,476 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-10 15:17:23,865 - DEBUG - Importing BlpImagePlugin
+2024-11-10 15:17:23,865 - DEBUG - Importing BmpImagePlugin
+2024-11-10 15:17:23,866 - DEBUG - Importing BufrStubImagePlugin
+2024-11-10 15:17:23,866 - DEBUG - Importing CurImagePlugin
+2024-11-10 15:17:23,866 - DEBUG - Importing DcxImagePlugin
+2024-11-10 15:17:23,867 - DEBUG - Importing DdsImagePlugin
+2024-11-10 15:17:23,870 - DEBUG - Importing EpsImagePlugin
+2024-11-10 15:17:23,870 - DEBUG - Importing FitsImagePlugin
+2024-11-10 15:17:23,872 - DEBUG - Importing FliImagePlugin
+2024-11-10 15:17:23,872 - DEBUG - Importing FpxImagePlugin
+2024-11-10 15:17:23,873 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-10 15:17:23,873 - DEBUG - Importing FtexImagePlugin
+2024-11-10 15:17:23,874 - DEBUG - Importing GbrImagePlugin
+2024-11-10 15:17:23,874 - DEBUG - Importing GifImagePlugin
+2024-11-10 15:17:23,874 - DEBUG - Importing GribStubImagePlugin
+2024-11-10 15:17:23,875 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-10 15:17:23,875 - DEBUG - Importing IcnsImagePlugin
+2024-11-10 15:17:23,876 - DEBUG - Importing IcoImagePlugin
+2024-11-10 15:17:23,877 - DEBUG - Importing ImImagePlugin
+2024-11-10 15:17:23,878 - DEBUG - Importing ImtImagePlugin
+2024-11-10 15:17:23,878 - DEBUG - Importing IptcImagePlugin
+2024-11-10 15:17:23,879 - DEBUG - Importing JpegImagePlugin
+2024-11-10 15:17:23,879 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-10 15:17:23,879 - DEBUG - Importing McIdasImagePlugin
+2024-11-10 15:17:23,879 - DEBUG - Importing MicImagePlugin
+2024-11-10 15:17:23,880 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-10 15:17:23,880 - DEBUG - Importing MpegImagePlugin
+2024-11-10 15:17:23,881 - DEBUG - Importing MpoImagePlugin
+2024-11-10 15:17:23,885 - DEBUG - Importing MspImagePlugin
+2024-11-10 15:17:23,886 - DEBUG - Importing PalmImagePlugin
+2024-11-10 15:17:23,887 - DEBUG - Importing PcdImagePlugin
+2024-11-10 15:17:23,887 - DEBUG - Importing PcxImagePlugin
+2024-11-10 15:17:23,887 - DEBUG - Importing PdfImagePlugin
+2024-11-10 15:17:23,892 - DEBUG - Importing PixarImagePlugin
+2024-11-10 15:17:23,892 - DEBUG - Importing PngImagePlugin
+2024-11-10 15:17:23,892 - DEBUG - Importing PpmImagePlugin
+2024-11-10 15:17:23,892 - DEBUG - Importing PsdImagePlugin
+2024-11-10 15:17:23,893 - DEBUG - Importing QoiImagePlugin
+2024-11-10 15:17:23,893 - DEBUG - Importing SgiImagePlugin
+2024-11-10 15:17:23,894 - DEBUG - Importing SpiderImagePlugin
+2024-11-10 15:17:23,894 - DEBUG - Importing SunImagePlugin
+2024-11-10 15:17:23,895 - DEBUG - Importing TgaImagePlugin
+2024-11-10 15:17:23,895 - DEBUG - Importing TiffImagePlugin
+2024-11-10 15:17:23,895 - DEBUG - Importing WebPImagePlugin
+2024-11-10 15:17:23,896 - DEBUG - Importing WmfImagePlugin
+2024-11-10 15:17:23,897 - DEBUG - Importing XbmImagePlugin
+2024-11-10 15:17:23,897 - DEBUG - Importing XpmImagePlugin
+2024-11-10 15:17:23,898 - DEBUG - Importing XVThumbImagePlugin
+2024-11-10 15:17:23,899 - INFO - Tray icon created successfully
+2024-11-10 15:17:36,488 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
