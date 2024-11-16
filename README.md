@@ -1,26 +1,26 @@
-# Printer Queue Manager
+# PQ Manager (Printer Queue Manager)
 
-A Windows application that monitors and clears printer queues automatically, helping prevent printer jams and stuck print jobs.
+A lightweight Windows application designed to automatically manage and clear printer queues, specifically optimized for grocery store environments.
 
 ## Features
-- Automatic printer queue monitoring (every 15 seconds)
-- System tray integration for minimal interference
-- Manual queue clearing option
-- Remembers your selected printer
-- Minimizes to system tray (works with both minimize button and close button)
-- Clean exit functionality from system tray
+
+- 🖨️ Automatic printer queue monitoring and clearing
+- 🔄 10-second monitoring cycle
+- 🎯 Multiple printer support
+- 💾 Settings persistence
+- 🚀 Automatic startup option
+- 🔒 Administrative rights handling
+- 📊 Detailed logging for troubleshooting
 
 ## Requirements
-- Windows 10/11
-- Python 3.x
-- Required packages (automatically installed via requirements.txt):
-  - pywin32 (for printer management)
-  - pystray (system tray functionality)
-  - Pillow (image handling for tray icon)
-  - packaging (version management)
+
+- Windows OS
+- Python 3.12 or higher
+- Administrator rights (for printer management)
 
 ## Installation
-1. Clone this repository:
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/PQManager.git
    cd PQManager
@@ -29,57 +29,67 @@ A Windows application that monitors and clears printer queues automatically, hel
 2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
-   venv\Scripts\activate
+   .\venv\Scripts\activate
    ```
 
-3. Install required packages:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
+## Building the Executable
+
+To build the standalone executable:
+
+```bash
+pyinstaller PQManager.spec
+```
+
+The executable will be created in the `dist` folder.
+
 ## Usage
-1. Run the application:
-   ```bash
-   python main.py
-   ```
 
-2. Select your printer from the dropdown menu
-3. The application will:
-   - Automatically monitor and clear the selected printer's queue
-   - Minimize to system tray when using the minimize button or close button
-   - Continue running in the background
+1. Run the application as Administrator
+2. Select your receipt printer from the dropdown
+3. The application will automatically:
+   - Monitor the printer queue every 10 seconds
+   - Clear any stuck print jobs
+   - Minimize to system tray
 
-## System Tray Features
-- Right-click the tray icon to:
-  - Show the main window
-  - Exit the application
-- Left-click to show the main window
+## Configuration
 
-## Project Structure
-```
-PQManager/
-├── assets/          # Contains application icons (Logo.ico)
-├── config/          # Configuration files (settings.json)
-├── logs/            # Application logs (printer_queue.log)
-├── src/             # Source code
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config_manager.py
-│   ├── printer_manager.py
-│   └── tray_manager.py
-├── .gitignore
-├── main.py          # Application launcher
-├── README.md
-└── requirements.txt
-```
+Settings are stored in: `%APPDATA%\PQManager\settings.json`
+- Selected printer
+- Monitoring interval
+- Startup preferences
+
+## Logging
+
+Logs are stored in: `logs/printer_queue.log`
+- Queue operations
+- Error messages
+- Printer status
 
 ## Development
-- Main application code is in `src/main.py`
-- System tray functionality in `src/tray_manager.py`
-- Configuration management in `src/config_manager.py`
-- Printer operations in `src/printer_manager.py`
 
-## Contributing
+### Project Structure
+```
+/PQManager
+├── main.py             # Entry point
+├── bootstrap.py        # Import and environment setup
+├── src/
+│   ├── main.py         # Core application logic
+│   ├── printer_manager.py  # Printer queue operations
+│   ├── tray_manager.py     # System tray handling
+│   └── config_manager.py   # Settings persistence
+├── assets/
+│   └── Logo.ico        # Application icon
+└── dist/
+    └── PQManager.exe   # Compiled executable
+```
+
+### Contributing
+
 1. Fork the repository
 2. Create a feature branch
 3. Commit your changes
@@ -87,7 +97,13 @@ PQManager/
 5. Create a Pull Request
 
 ## License
-[Your chosen license]
+
+[MIT License](LICENSE)
+
+## Author
+
+James
 
 ## Support
-For issues or feature requests, please create an issue in the GitHub repository.
+
+For support, please check the logs at `logs/printer_queue.log` first, then open an issue on GitHub.

@@ -1095,3 +1095,425 @@ RuntimeError: main thread is not in main loop
 2024-11-16 16:25:02,497 - INFO - Tray icon created successfully
 2024-11-16 16:25:02,501 - INFO - Window minimized to tray successfully
 2024-11-16 16:25:02,504 - INFO - Window minimized to tray successfully
+2024-11-16 16:38:16,494 - INFO - Autostart registry entry verified
+2024-11-16 16:38:16,500 - WARNING - Saved printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:38:17,513 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:38:17,514 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:38:17,514 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:38:17,515 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:38:17,515 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:38:17,515 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:38:17,518 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:38:17,519 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:38:17,520 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:38:17,520 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:38:17,521 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:38:17,521 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:38:17,522 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:38:17,522 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:38:17,522 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:38:17,523 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:38:17,523 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:38:17,524 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:38:17,525 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:38:17,525 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:38:17,526 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:38:17,527 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:38:17,527 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:38:17,527 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:38:17,527 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:38:17,528 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:38:17,528 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:38:17,528 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:38:17,532 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:38:17,533 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:38:17,534 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:38:17,534 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:38:17,534 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:38:17,539 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:38:17,540 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:38:17,540 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:38:17,540 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:38:17,540 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:38:17,541 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:38:17,541 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:38:17,542 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:38:17,542 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:38:17,543 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:38:17,543 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:38:17,544 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:38:17,544 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:38:17,545 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:38:17,545 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:38:17,548 - INFO - Tray icon created successfully
+2024-11-16 16:38:17,553 - INFO - Window minimized to tray successfully
+2024-11-16 16:38:17,556 - INFO - Window minimized to tray successfully
+2024-11-16 16:43:07,050 - INFO - Autostart registry entry verified
+2024-11-16 16:43:07,056 - WARNING - Saved printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:43:08,083 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:43:08,083 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:43:08,083 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:43:08,084 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:43:08,084 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:43:08,085 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:43:08,088 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:43:08,088 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:43:08,090 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:43:08,090 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:43:08,091 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:43:08,091 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:43:08,091 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:43:08,091 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:43:08,091 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:43:08,092 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:43:08,093 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:43:08,094 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:43:08,095 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:43:08,095 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:43:08,096 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:43:08,096 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:43:08,096 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:43:08,096 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:43:08,097 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:43:08,098 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:43:08,098 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:43:08,098 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:43:08,103 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:43:08,103 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:43:08,104 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:43:08,104 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:43:08,105 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:43:08,109 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:43:08,110 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:43:08,110 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:43:08,110 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:43:08,111 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:43:08,111 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:43:08,111 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:43:08,111 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:43:08,112 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:43:08,113 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:43:08,113 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:43:08,114 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:43:08,114 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:43:08,115 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:43:08,116 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:43:08,117 - INFO - Tray icon created successfully
+2024-11-16 16:43:08,122 - INFO - Window minimized to tray successfully
+2024-11-16 16:43:08,125 - INFO - Window minimized to tray successfully
+2024-11-16 16:43:30,593 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 16:43:30,640 - WARNING - Bulk purge failed, falling back to individual job removal: function takes exactly 3 arguments (1 given)
+2024-11-16 16:43:30,640 - ERROR - AnyDesk v4 Printer Driver: Failed to clear job 2: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:43:30,642 - WARNING - Failed to clear queue completely
+2024-11-16 16:45:38,399 - INFO - Tray icon created successfully
+2024-11-16 16:45:38,403 - INFO - Window minimized to tray successfully
+2024-11-16 16:45:38,406 - INFO - Window minimized to tray successfully
+2024-11-16 16:48:37,628 - INFO - Autostart registry entry verified
+2024-11-16 16:48:37,634 - WARNING - Saved printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:48:38,659 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:48:38,660 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:48:38,660 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:48:38,661 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:48:38,661 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:48:38,662 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:48:38,664 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:48:38,665 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:48:38,666 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:48:38,667 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:48:38,668 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:48:38,668 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:48:38,668 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:48:38,669 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:48:38,669 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:48:38,669 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:48:38,669 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:48:38,671 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:48:38,671 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:48:38,671 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:48:38,672 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:48:38,673 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:48:38,673 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:48:38,673 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:48:38,673 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:48:38,674 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:48:38,674 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:48:38,675 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:48:38,679 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:48:38,679 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:48:38,680 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:48:38,681 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:48:38,681 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:48:38,686 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:48:38,686 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:48:38,686 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:48:38,686 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:48:38,687 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:48:38,687 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:48:38,688 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:48:38,688 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:48:38,689 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:48:38,689 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:48:38,689 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:48:38,690 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:48:38,691 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:48:38,691 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:48:38,692 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:48:38,694 - INFO - Tray icon created successfully
+2024-11-16 16:48:38,698 - INFO - Window minimized to tray successfully
+2024-11-16 16:48:38,701 - INFO - Window minimized to tray successfully
+2024-11-16 16:48:58,484 - WARNING - Selected printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:49:01,523 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 16:49:01,568 - WARNING - Bulk purge failed, falling back to individual job removal: function takes exactly 3 arguments (1 given)
+2024-11-16 16:49:01,569 - ERROR - AnyDesk v4 Printer Driver: Failed to clear job 3: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:49:01,571 - ERROR - AnyDesk v4 Printer Driver: Failed to clear job 4: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:49:01,571 - WARNING - Failed to clear queue completely
+2024-11-16 16:49:27,162 - INFO - Tray icon created successfully
+2024-11-16 16:49:27,167 - INFO - Window minimized to tray successfully
+2024-11-16 16:49:27,170 - INFO - Window minimized to tray successfully
+2024-11-16 16:51:40,253 - INFO - Autostart registry entry verified
+2024-11-16 16:51:40,257 - WARNING - Saved printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:51:41,272 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:51:41,273 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:51:41,273 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:51:41,273 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:51:41,274 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:51:41,275 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:51:41,277 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:51:41,278 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:51:41,279 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:51:41,279 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:51:41,280 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:51:41,280 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:51:41,280 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:51:41,281 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:51:41,281 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:51:41,282 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:51:41,282 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:51:41,283 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:51:41,284 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:51:41,285 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:51:41,286 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:51:41,286 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:51:41,286 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:51:41,286 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:51:41,286 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:51:41,287 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:51:41,288 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:51:41,288 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:51:41,292 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:51:41,292 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:51:41,293 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:51:41,294 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:51:41,294 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:51:41,299 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:51:41,299 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:51:41,299 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:51:41,299 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:51:41,300 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:51:41,300 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:51:41,301 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:51:41,301 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:51:41,302 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:51:41,302 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:51:41,302 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:51:41,303 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:51:41,303 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:51:41,304 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:51:41,305 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:51:41,306 - INFO - Tray icon created successfully
+2024-11-16 16:51:41,312 - INFO - Window minimized to tray successfully
+2024-11-16 16:51:41,314 - INFO - Window minimized to tray successfully
+2024-11-16 16:51:57,591 - INFO - Printer selected: AnyDesk v4 Printer Driver
+2024-11-16 16:51:57,591 - WARNING - Selected printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:52:01,728 - INFO - Tray icon created successfully
+2024-11-16 16:52:01,732 - INFO - Window minimized to tray successfully
+2024-11-16 16:52:01,736 - INFO - Window minimized to tray successfully
+2024-11-16 16:52:11,364 - INFO - Autostart registry entry verified
+2024-11-16 16:52:11,371 - WARNING - Saved printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:52:12,385 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:52:12,385 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:52:12,385 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:52:12,386 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:52:12,387 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:52:12,388 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:52:12,390 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:52:12,390 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:52:12,392 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:52:12,392 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:52:12,393 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:52:12,393 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:52:12,394 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:52:12,394 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:52:12,394 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:52:12,394 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:52:12,395 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:52:12,396 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:52:12,397 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:52:12,397 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:52:12,398 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:52:12,398 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:52:12,398 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:52:12,398 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:52:12,399 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:52:12,400 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:52:12,400 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:52:12,400 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:52:12,404 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:52:12,405 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:52:12,406 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:52:12,406 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:52:12,406 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:52:12,411 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:52:12,412 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:52:12,412 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:52:12,412 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:52:12,412 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:52:12,413 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:52:12,413 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:52:12,413 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:52:12,414 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:52:12,414 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:52:12,414 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:52:12,415 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:52:12,416 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:52:12,416 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:52:12,417 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:52:12,419 - INFO - Tray icon created successfully
+2024-11-16 16:52:12,424 - INFO - Window minimized to tray successfully
+2024-11-16 16:52:12,428 - INFO - Window minimized to tray successfully
+2024-11-16 16:52:28,860 - INFO - Tray icon created successfully
+2024-11-16 16:52:28,864 - INFO - Window minimized to tray successfully
+2024-11-16 16:52:28,867 - INFO - Window minimized to tray successfully
+2024-11-16 16:54:25,512 - INFO - Autostart registry entry verified
+2024-11-16 16:54:25,517 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 16:54:25,517 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 16:54:25,517 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:54:25,527 - INFO - Queue length for AnyDesk v4 Printer Driver: 5
+2024-11-16 16:54:25,528 - INFO - Current queue length: 5
+2024-11-16 16:54:25,528 - INFO - Attempting to clear 5 jobs...
+2024-11-16 16:54:25,529 - ERROR - Failed to clear job 5: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:25,529 - ERROR - Failed to clear job 6: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:25,530 - ERROR - Failed to clear job 7: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:25,530 - ERROR - Failed to clear job 8: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:25,531 - ERROR - Failed to clear job 9: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:25,531 - WARNING - Failed to clear queue
+2024-11-16 16:54:35,543 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:54:35,544 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:54:35,544 - INFO - Current queue length: 0
+2024-11-16 16:54:45,558 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:54:45,559 - INFO - Queue length for AnyDesk v4 Printer Driver: 3
+2024-11-16 16:54:45,559 - INFO - Current queue length: 3
+2024-11-16 16:54:45,559 - INFO - Attempting to clear 3 jobs...
+2024-11-16 16:54:45,560 - ERROR - Failed to clear job 10: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:45,561 - ERROR - Failed to clear job 11: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:45,561 - ERROR - Failed to clear job 12: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:45,561 - WARNING - Failed to clear queue
+2024-11-16 16:54:55,564 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:54:55,564 - INFO - Queue length for AnyDesk v4 Printer Driver: 3
+2024-11-16 16:54:55,564 - INFO - Current queue length: 3
+2024-11-16 16:54:55,564 - INFO - Attempting to clear 3 jobs...
+2024-11-16 16:54:55,565 - ERROR - Failed to clear job 13: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:55,565 - ERROR - Failed to clear job 14: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:55,566 - ERROR - Failed to clear job 15: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:54:55,566 - WARNING - Failed to clear queue
+2024-11-16 16:55:05,567 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:55:05,567 - INFO - Queue length for AnyDesk v4 Printer Driver: 1
+2024-11-16 16:55:05,567 - INFO - Current queue length: 1
+2024-11-16 16:55:05,567 - INFO - Attempting to clear 1 jobs...
+2024-11-16 16:55:05,568 - ERROR - Failed to clear job 16: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:55:05,568 - WARNING - Failed to clear queue
+2024-11-16 16:55:15,574 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:55:15,575 - INFO - Queue length for AnyDesk v4 Printer Driver: 1
+2024-11-16 16:55:15,575 - INFO - Current queue length: 1
+2024-11-16 16:55:15,575 - INFO - Attempting to clear 1 jobs...
+2024-11-16 16:55:15,575 - ERROR - Failed to clear job 17: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:55:15,576 - WARNING - Failed to clear queue
+2024-11-16 16:55:20,014 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 16:55:20,016 - ERROR - Failed to clear job 18: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:55:20,016 - WARNING - Failed to clear queue completely
+2024-11-16 16:55:25,579 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:55:25,579 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:55:25,579 - INFO - Current queue length: 0
+2024-11-16 16:55:26,634 - INFO - Tray icon created successfully
+2024-11-16 16:55:26,638 - INFO - Window minimized to tray successfully
+2024-11-16 16:55:26,642 - INFO - Window minimized to tray successfully
+2024-11-16 16:59:13,346 - INFO - Using existing settings at D:\!Projects\PQManager\config\settings.json
+2024-11-16 16:59:13,346 - INFO - Autostart registry entry verified
+2024-11-16 16:59:13,349 - INFO - Loaded settings: {'printer': 'AnyDesk v4 Printer Driver', 'selected_printer': 'AnyDesk v4 Printer Driver'}
+2024-11-16 16:59:13,350 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 16:59:13,350 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 16:59:13,350 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:13,351 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:59:13,351 - INFO - Current queue length: 0
+2024-11-16 16:59:23,362 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:23,373 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 16:59:23,373 - INFO - Current queue length: 2
+2024-11-16 16:59:23,373 - INFO - Attempting to clear 2 jobs...
+2024-11-16 16:59:23,374 - ERROR - Failed to clear job 19: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:59:23,375 - ERROR - Failed to clear job 20: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:59:23,375 - WARNING - Failed to clear queue
+2024-11-16 16:59:27,912 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:27,913 - ERROR - Failed to clear job 21: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 16:59:27,913 - WARNING - Failed to clear queue completely
+2024-11-16 16:59:33,379 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:33,379 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:59:33,379 - INFO - Current queue length: 0
+2024-11-16 16:59:43,382 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:43,382 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:59:43,382 - INFO - Current queue length: 0
+2024-11-16 16:59:53,388 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 16:59:53,388 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 16:59:53,388 - INFO - Current queue length: 0
+2024-11-16 17:00:00,506 - INFO - Tray icon created successfully
+2024-11-16 17:00:00,511 - INFO - Window minimized to tray successfully
+2024-11-16 17:00:00,514 - INFO - Window minimized to tray successfully
+2024-11-16 17:00:03,397 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:00:03,397 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:00:03,397 - INFO - Current queue length: 0
+2024-11-16 17:03:40,926 - INFO - Using existing settings at D:\!Projects\PQManager\config\settings.json
+2024-11-16 17:03:40,926 - INFO - Autostart registry entry verified
+2024-11-16 17:03:40,930 - INFO - Loaded settings: {'printer': 'AnyDesk v4 Printer Driver', 'selected_printer': 'AnyDesk v4 Printer Driver'}
+2024-11-16 17:03:40,931 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:03:40,931 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:03:40,931 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:03:40,931 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:03:40,931 - INFO - Current queue length: 0
+2024-11-16 17:03:50,937 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:03:50,948 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 17:03:50,948 - INFO - Current queue length: 2
+2024-11-16 17:03:50,948 - INFO - Attempting to clear 2 jobs...
+2024-11-16 17:03:50,949 - ERROR - Failed to clear job 22: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:03:50,950 - ERROR - Failed to clear job 23: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:03:50,950 - WARNING - Failed to clear queue
+2024-11-16 17:03:54,497 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:03:54,498 - ERROR - Failed to clear job 24: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:03:54,498 - WARNING - Failed to clear queue completely
+2024-11-16 17:03:59,671 - INFO - Tray icon created successfully
+2024-11-16 17:03:59,675 - INFO - Window minimized to tray successfully
+2024-11-16 17:03:59,678 - INFO - Window minimized to tray successfully
+2024-11-16 17:04:00,965 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:04:00,965 - INFO - Queue length for AnyDesk v4 Printer Driver: 1
+2024-11-16 17:04:00,965 - INFO - Current queue length: 1
+2024-11-16 17:04:00,965 - INFO - Attempting to clear 1 jobs...
+2024-11-16 17:04:00,966 - ERROR - Failed to clear job 25: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:04:00,966 - WARNING - Failed to clear queue
+2024-11-16 17:11:42,657 - INFO - Using existing settings at D:\!Projects\PQManager\config\settings.json
+2024-11-16 17:11:42,658 - INFO - Autostart registry entry verified
+2024-11-16 17:11:42,663 - INFO - Loaded settings: {'printer': 'AnyDesk v4 Printer Driver', 'selected_printer': 'AnyDesk v4 Printer Driver'}
+2024-11-16 17:11:42,663 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:11:42,663 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:11:42,663 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:11:42,674 - INFO - Queue length for AnyDesk v4 Printer Driver: 7
+2024-11-16 17:11:42,674 - INFO - Current queue length: 7
+2024-11-16 17:11:42,674 - INFO - Attempting to clear 7 jobs...
+2024-11-16 17:11:42,675 - ERROR - Failed to clear job 26: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,676 - ERROR - Failed to clear job 27: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,676 - ERROR - Failed to clear job 28: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,677 - ERROR - Failed to clear job 29: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,677 - ERROR - Failed to clear job 30: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,678 - ERROR - Failed to clear job 31: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,679 - ERROR - Failed to clear job 32: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:11:42,679 - WARNING - Failed to clear queue
+2024-11-16 17:11:45,379 - INFO - Tray icon created successfully
+2024-11-16 17:11:45,383 - INFO - Window minimized to tray successfully
+2024-11-16 17:11:45,387 - INFO - Window minimized to tray successfully

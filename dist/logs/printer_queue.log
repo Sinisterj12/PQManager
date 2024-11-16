@@ -1,0 +1,618 @@
+2024-11-16 16:35:21,873 - INFO - Autostart registry entry verified
+2024-11-16 16:35:25,322 - WARNING - Selected printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:35:28,747 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:35:28,748 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:35:28,748 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:35:28,748 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:35:28,748 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:35:28,749 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:35:28,751 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:35:28,751 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:35:28,752 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:35:28,752 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:35:28,753 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:35:28,753 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:35:28,754 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:35:28,754 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:35:28,754 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:35:28,754 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:35:28,754 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:35:28,755 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:35:28,755 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:35:28,756 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:35:28,756 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:35:28,756 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:35:28,756 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:35:28,756 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:35:28,757 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:35:28,757 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:35:28,757 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:35:28,757 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:35:28,763 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:35:28,763 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:35:28,764 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:35:28,765 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:35:28,765 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:35:28,768 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:35:28,769 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:35:28,770 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:35:28,770 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:35:28,771 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:35:28,772 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:35:28,772 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:35:28,772 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:35:28,774 - INFO - Tray icon created successfully
+2024-11-16 16:35:28,775 - INFO - Window minimized to tray successfully
+2024-11-16 16:35:28,780 - INFO - Window minimized to tray successfully
+2024-11-16 16:35:38,456 - INFO - Tray icon created successfully
+2024-11-16 16:35:38,460 - INFO - Window minimized to tray successfully
+2024-11-16 16:35:38,465 - INFO - Window minimized to tray successfully
+2024-11-16 16:35:46,031 - INFO - Autostart registry entry verified
+2024-11-16 16:35:48,979 - WARNING - Selected printer AnyDesk v4 Printer Driver is not ready
+2024-11-16 16:35:51,253 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:35:51,253 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:35:51,253 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:35:51,253 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:35:51,254 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:35:51,254 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:35:51,256 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:35:51,256 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:35:51,257 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:35:51,257 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:35:51,258 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:35:51,258 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:35:51,258 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:35:51,259 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:35:51,259 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:35:51,259 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:35:51,259 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:35:51,260 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:35:51,260 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:35:51,261 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:35:51,261 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:35:51,262 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:35:51,262 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:35:51,262 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:35:51,262 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:35:51,262 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:35:51,262 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:35:51,263 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:35:51,268 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:35:51,268 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:35:51,269 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:35:51,269 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:35:51,269 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:35:51,272 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:35:51,272 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:35:51,272 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:35:51,273 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:35:51,273 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:35:51,273 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:35:51,273 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:35:51,274 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:35:51,274 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:35:51,274 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:35:51,274 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:35:51,275 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:35:51,275 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:35:51,276 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:35:51,276 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:35:51,277 - INFO - Tray icon created successfully
+2024-11-16 16:35:51,282 - INFO - Window minimized to tray successfully
+2024-11-16 16:35:51,286 - INFO - Window minimized to tray successfully
+2024-11-16 16:36:14,811 - INFO - Tray icon created successfully
+2024-11-16 16:36:14,816 - INFO - Window minimized to tray successfully
+2024-11-16 16:36:14,821 - INFO - Window minimized to tray successfully
+2024-11-16 16:40:17,788 - ERROR - AnyDesk v4 Printer Driver: Printer access error: No module named 'win32timezone'
+2024-11-16 16:40:21,524 - INFO - Tray icon created successfully
+2024-11-16 16:40:21,528 - INFO - Window minimized to tray successfully
+2024-11-16 16:40:21,533 - INFO - Window minimized to tray successfully
+2024-11-16 16:45:59,934 - INFO - Window minimized to tray successfully
+2024-11-16 17:09:55,469 - INFO - Saved settings: {'selected_printer': '', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:09:55,470 - INFO - Created new settings file at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:09:55,470 - INFO - Autostart registry entry verified
+2024-11-16 17:09:55,476 - INFO - Loaded settings: {'selected_printer': '', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:10:01,851 - INFO - Printer selected: AnyDesk v4 Printer Driver
+2024-11-16 17:10:01,851 - INFO - Loaded settings: {'selected_printer': '', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:10:01,852 - INFO - Saved settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:10:01,852 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:10:01,852 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:01,852 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:10:01,852 - INFO - Current queue length: 0
+2024-11-16 17:10:11,853 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:11,854 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:10:11,854 - INFO - Current queue length: 0
+2024-11-16 17:10:21,857 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:21,858 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:10:21,858 - INFO - Current queue length: 0
+2024-11-16 17:10:31,643 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:31,644 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:31,645 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:31,869 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:31,870 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:10:31,870 - INFO - Current queue length: 0
+2024-11-16 17:10:32,402 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:32,404 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:32,404 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:32,700 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:32,701 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:32,701 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:32,899 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:32,900 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:32,900 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:33,256 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:33,257 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:33,257 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:33,439 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:33,440 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:33,440 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:33,694 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:33,695 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:33,695 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:33,994 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:33,995 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:33,995 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:34,169 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:34,170 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:34,170 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:34,685 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:34,686 - ERROR - Printer access error: No module named 'win32timezone'
+2024-11-16 17:10:34,686 - WARNING - Failed to clear queue completely
+2024-11-16 17:10:41,884 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:41,885 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:10:41,885 - INFO - Current queue length: 0
+2024-11-16 17:10:51,892 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:10:51,893 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:10:51,893 - INFO - Current queue length: 0
+2024-11-16 17:13:39,515 - INFO - Starting PQ Manager...
+2024-11-16 17:13:39,516 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2024-11-16 17:13:39,516 - INFO - Project root: C:\Users\pctec\AppData\Local\Temp\_MEI196522
+2024-11-16 17:13:39,713 - INFO - Using existing settings at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:13:39,713 - INFO - Initializing PrinterManager
+2024-11-16 17:13:39,713 - INFO - Autostart registry entry verified
+2024-11-16 17:13:39,718 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:13:39,720 - INFO - Loaded settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:13:39,721 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:13:39,721 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:13:39,721 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:13:39,721 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:13:39,722 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:13:39,722 - INFO - Current queue length: 0
+2024-11-16 17:13:49,733 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:13:49,734 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:13:49,735 - INFO - Current queue length: 0
+2024-11-16 17:13:59,749 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:13:59,750 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:13:59,750 - INFO - Current queue length: 0
+2024-11-16 17:14:09,756 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:14:09,756 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:14:09,756 - INFO - Current queue length: 0
+2024-11-16 17:14:19,764 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:14:19,765 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:14:19,765 - INFO - Current queue length: 0
+2024-11-16 17:14:29,772 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:14:29,773 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:14:29,774 - INFO - Current queue length: 0
+2024-11-16 17:14:39,774 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:14:39,775 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:14:39,776 - INFO - Current queue length: 0
+2024-11-16 17:14:49,788 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:14:49,789 - ERROR - Failed to get queue length: No module named 'win32timezone'
+2024-11-16 17:14:49,789 - INFO - Current queue length: 0
+2024-11-16 17:16:28,213 - INFO - Starting PQ Manager...
+2024-11-16 17:16:28,213 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2024-11-16 17:16:28,213 - INFO - Project root: C:\Users\pctec\AppData\Local\Temp\_MEI177082
+2024-11-16 17:16:28,399 - INFO - Using existing settings at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:16:28,399 - INFO - Initializing PrinterManager
+2024-11-16 17:16:28,400 - INFO - Successfully loaded win32print
+2024-11-16 17:16:28,400 - INFO - Successfully loaded win32api
+2024-11-16 17:16:28,400 - INFO - Successfully loaded win32con
+2024-11-16 17:16:28,403 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:16:28,404 - INFO - Loaded settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:16:28,405 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:16:28,405 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:16:28,405 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:16:28,405 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:16:28,415 - INFO - Queue length for AnyDesk v4 Printer Driver: 5
+2024-11-16 17:16:28,415 - INFO - Job 33: Status=Unknown, Document=Test Page
+2024-11-16 17:16:28,415 - INFO - Job 34: Status=Unknown, Document=Test Page
+2024-11-16 17:16:28,415 - INFO - Job 35: Status=Unknown, Document=Test Page
+2024-11-16 17:16:28,415 - INFO - Job 36: Status=Unknown, Document=Test Page
+2024-11-16 17:16:28,415 - INFO - Job 37: Status=Unknown, Document=Test Page
+2024-11-16 17:16:28,415 - INFO - Current queue length: 5
+2024-11-16 17:16:28,416 - INFO - Attempting to clear 5 jobs...
+2024-11-16 17:16:28,416 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:16:28,417 - INFO - Found 5 jobs to clear
+2024-11-16 17:16:28,417 - INFO - Processing job 33 (Status: Unknown)
+2024-11-16 17:16:28,417 - INFO - Attempting to cancel job 33
+2024-11-16 17:16:28,518 - INFO - Attempting to delete job 33
+2024-11-16 17:16:28,518 - ERROR - Failed to clear job 33: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:28,518 - INFO - Processing job 34 (Status: Unknown)
+2024-11-16 17:16:28,518 - INFO - Attempting to cancel job 34
+2024-11-16 17:16:28,620 - INFO - Attempting to delete job 34
+2024-11-16 17:16:28,620 - ERROR - Failed to clear job 34: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:28,621 - INFO - Processing job 35 (Status: Unknown)
+2024-11-16 17:16:28,621 - INFO - Attempting to cancel job 35
+2024-11-16 17:16:28,723 - INFO - Attempting to delete job 35
+2024-11-16 17:16:28,723 - ERROR - Failed to clear job 35: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:28,724 - INFO - Processing job 36 (Status: Unknown)
+2024-11-16 17:16:28,724 - INFO - Attempting to cancel job 36
+2024-11-16 17:16:28,825 - INFO - Attempting to delete job 36
+2024-11-16 17:16:28,825 - ERROR - Failed to clear job 36: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:28,826 - INFO - Processing job 37 (Status: Unknown)
+2024-11-16 17:16:28,826 - INFO - Attempting to cancel job 37
+2024-11-16 17:16:28,927 - INFO - Attempting to delete job 37
+2024-11-16 17:16:28,927 - ERROR - Failed to clear job 37: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:28,928 - INFO - Queue verified empty
+2024-11-16 17:16:28,928 - INFO - Printer handle closed
+2024-11-16 17:16:28,929 - WARNING - Failed to clear queue
+2024-11-16 17:16:38,929 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:16:38,929 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:16:38,929 - INFO - Current queue length: 0
+2024-11-16 17:16:48,943 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:16:48,943 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:16:48,943 - INFO - Current queue length: 0
+2024-11-16 17:16:58,948 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:16:58,949 - INFO - Queue length for AnyDesk v4 Printer Driver: 4
+2024-11-16 17:16:58,949 - INFO - Job 38: Status=Unknown, Document=Test Page
+2024-11-16 17:16:58,949 - INFO - Job 39: Status=Unknown, Document=Test Page
+2024-11-16 17:16:58,950 - INFO - Job 40: Status=Unknown, Document=Test Page
+2024-11-16 17:16:58,950 - INFO - Job 41: Status=Unknown, Document=Test Page
+2024-11-16 17:16:58,951 - INFO - Current queue length: 4
+2024-11-16 17:16:58,951 - INFO - Attempting to clear 4 jobs...
+2024-11-16 17:16:58,952 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:16:58,953 - INFO - Found 4 jobs to clear
+2024-11-16 17:16:58,953 - INFO - Processing job 38 (Status: Unknown)
+2024-11-16 17:16:58,953 - INFO - Attempting to cancel job 38
+2024-11-16 17:16:59,055 - INFO - Attempting to delete job 38
+2024-11-16 17:16:59,055 - ERROR - Failed to clear job 38: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:59,056 - INFO - Processing job 39 (Status: Unknown)
+2024-11-16 17:16:59,057 - INFO - Attempting to cancel job 39
+2024-11-16 17:16:59,160 - INFO - Attempting to delete job 39
+2024-11-16 17:16:59,160 - ERROR - Failed to clear job 39: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:59,161 - INFO - Processing job 40 (Status: Unknown)
+2024-11-16 17:16:59,161 - INFO - Attempting to cancel job 40
+2024-11-16 17:16:59,263 - INFO - Attempting to delete job 40
+2024-11-16 17:16:59,263 - ERROR - Failed to clear job 40: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:59,263 - INFO - Processing job 41 (Status: Unknown)
+2024-11-16 17:16:59,264 - INFO - Attempting to cancel job 41
+2024-11-16 17:16:59,365 - INFO - Attempting to delete job 41
+2024-11-16 17:16:59,365 - ERROR - Failed to clear job 41: (87, 'SetJob', 'The parameter is incorrect.')
+2024-11-16 17:16:59,366 - INFO - Queue verified empty
+2024-11-16 17:16:59,366 - INFO - Printer handle closed
+2024-11-16 17:16:59,367 - WARNING - Failed to clear queue
+2024-11-16 17:17:09,378 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:17:19,473 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:17:19,473 - INFO - Current queue length: 0
+2024-11-16 17:17:29,488 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:17:29,489 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:17:29,489 - INFO - Current queue length: 0
+2024-11-16 17:17:39,497 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:17:39,497 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:17:39,498 - INFO - Current queue length: 0
+2024-11-16 17:17:49,507 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:17:49,508 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:17:49,508 - INFO - Current queue length: 0
+2024-11-16 17:17:59,521 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:17:59,522 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:17:59,522 - INFO - Current queue length: 0
+2024-11-16 17:18:09,534 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:18:09,535 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:18:09,535 - INFO - Current queue length: 0
+2024-11-16 17:18:19,539 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:18:19,539 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:18:19,540 - INFO - Current queue length: 0
+2024-11-16 17:18:29,550 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:18:29,550 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:18:29,551 - INFO - Current queue length: 0
+2024-11-16 17:18:39,562 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:18:39,562 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:18:39,562 - INFO - Current queue length: 0
+2024-11-16 17:21:23,067 - INFO - Starting PQ Manager...
+2024-11-16 17:21:23,067 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2024-11-16 17:21:23,067 - INFO - Project root: C:\Users\pctec\AppData\Local\Temp\_MEI61122
+2024-11-16 17:21:23,257 - INFO - Using existing settings at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:21:23,257 - INFO - Initializing PrinterManager
+2024-11-16 17:21:23,257 - INFO - Successfully loaded win32print
+2024-11-16 17:21:23,258 - INFO - Successfully loaded win32api
+2024-11-16 17:21:23,258 - INFO - Successfully loaded win32con
+2024-11-16 17:21:23,261 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:21:23,262 - INFO - Loaded settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:21:23,263 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:21:23,263 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:21:23,263 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:21:23,263 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:21:23,263 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:21:23,263 - INFO - Current queue length: 0
+2024-11-16 17:21:33,265 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:21:33,275 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 17:21:33,275 - INFO - Job 42: Status=Unknown, Document=Test Page
+2024-11-16 17:21:33,275 - INFO - Job 43: Status=Unknown, Document=Test Page
+2024-11-16 17:21:33,275 - INFO - Current queue length: 2
+2024-11-16 17:21:33,275 - INFO - Attempting to clear 2 jobs...
+2024-11-16 17:21:33,275 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:21:33,275 - INFO - Found 2 jobs to clear
+2024-11-16 17:21:33,275 - INFO - Processing job 42 (Status: Unknown)
+2024-11-16 17:21:33,275 - INFO - Attempting to cancel job 42
+2024-11-16 17:21:33,377 - INFO - Attempting to delete job 42
+2024-11-16 17:21:33,377 - INFO - Job 42 appears to be already cleared
+2024-11-16 17:21:33,377 - INFO - Processing job 43 (Status: Unknown)
+2024-11-16 17:21:33,377 - INFO - Attempting to cancel job 43
+2024-11-16 17:21:33,479 - INFO - Attempting to delete job 43
+2024-11-16 17:21:33,479 - INFO - Job 43 appears to be already cleared
+2024-11-16 17:21:33,480 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:21:33,480 - INFO - Printer handle closed
+2024-11-16 17:21:33,481 - INFO - Queue cleared successfully
+2024-11-16 17:21:43,484 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:21:43,485 - INFO - Queue length for AnyDesk v4 Printer Driver: 3
+2024-11-16 17:21:43,485 - INFO - Job 44: Status=Unknown, Document=Test Page
+2024-11-16 17:21:43,485 - INFO - Job 45: Status=Unknown, Document=Test Page
+2024-11-16 17:21:43,486 - INFO - Job 46: Status=Unknown, Document=Test Page
+2024-11-16 17:21:43,486 - INFO - Current queue length: 3
+2024-11-16 17:21:43,487 - INFO - Attempting to clear 3 jobs...
+2024-11-16 17:21:43,487 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:21:43,488 - INFO - Found 3 jobs to clear
+2024-11-16 17:21:43,488 - INFO - Processing job 44 (Status: Unknown)
+2024-11-16 17:21:43,489 - INFO - Attempting to cancel job 44
+2024-11-16 17:21:43,590 - INFO - Attempting to delete job 44
+2024-11-16 17:21:43,590 - INFO - Job 44 appears to be already cleared
+2024-11-16 17:21:43,591 - INFO - Processing job 45 (Status: Unknown)
+2024-11-16 17:21:43,591 - INFO - Attempting to cancel job 45
+2024-11-16 17:21:43,693 - INFO - Attempting to delete job 45
+2024-11-16 17:21:43,693 - INFO - Job 45 appears to be already cleared
+2024-11-16 17:21:43,693 - INFO - Processing job 46 (Status: Unknown)
+2024-11-16 17:21:43,694 - INFO - Attempting to cancel job 46
+2024-11-16 17:21:43,795 - INFO - Attempting to delete job 46
+2024-11-16 17:21:43,795 - INFO - Job 46 appears to be already cleared
+2024-11-16 17:21:43,796 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:21:43,796 - INFO - Printer handle closed
+2024-11-16 17:21:43,797 - INFO - Queue cleared successfully
+2024-11-16 17:21:53,810 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:03,196 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:03,196 - INFO - Current queue length: 0
+2024-11-16 17:22:13,200 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:13,200 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:13,201 - INFO - Current queue length: 0
+2024-11-16 17:22:23,208 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:23,209 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:23,210 - INFO - Current queue length: 0
+2024-11-16 17:22:29,998 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:29,999 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:22:30,000 - INFO - No jobs in queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:30,000 - INFO - Printer handle closed
+2024-11-16 17:22:30,000 - INFO - Queue cleared successfully
+2024-11-16 17:22:31,520 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:31,520 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:22:31,521 - INFO - No jobs in queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:31,521 - INFO - Printer handle closed
+2024-11-16 17:22:31,521 - INFO - Queue cleared successfully
+2024-11-16 17:22:33,219 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:33,219 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:33,219 - INFO - Current queue length: 0
+2024-11-16 17:22:36,118 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:36,118 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:22:36,119 - INFO - No jobs in queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:36,119 - INFO - Printer handle closed
+2024-11-16 17:22:36,120 - INFO - Queue cleared successfully
+2024-11-16 17:22:43,230 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:43,230 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:43,230 - INFO - Current queue length: 0
+2024-11-16 17:22:53,232 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:22:53,232 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:22:53,232 - INFO - Current queue length: 0
+2024-11-16 17:23:03,244 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:23:03,245 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:23:03,245 - INFO - Current queue length: 0
+2024-11-16 17:23:13,246 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:23:13,246 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:23:13,247 - INFO - Current queue length: 0
+2024-11-16 17:23:23,260 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:23:23,261 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:23:23,261 - INFO - Current queue length: 0
+2024-11-16 17:23:33,265 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:23:33,265 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:23:33,266 - INFO - Current queue length: 0
+2024-11-16 17:26:36,451 - INFO - Starting PQ Manager...
+2024-11-16 17:26:36,451 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2024-11-16 17:26:36,451 - INFO - Project root: C:\Users\pctec\AppData\Local\Temp\_MEI222362
+2024-11-16 17:26:36,641 - INFO - Using existing settings at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:26:36,641 - INFO - Initializing PrinterManager
+2024-11-16 17:26:36,641 - INFO - Successfully loaded win32print
+2024-11-16 17:26:36,641 - INFO - Successfully loaded win32api
+2024-11-16 17:26:36,641 - INFO - Successfully loaded win32con
+2024-11-16 17:26:36,645 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:26:36,646 - INFO - Loaded settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:26:36,646 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:26:36,646 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:26:36,646 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:26:36,646 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:26:36,656 - INFO - Queue length for AnyDesk v4 Printer Driver: 3
+2024-11-16 17:26:36,656 - INFO - Job 47: Status=Unknown, Document=Test Page
+2024-11-16 17:26:36,656 - INFO - Job 48: Status=Unknown, Document=Test Page
+2024-11-16 17:26:36,656 - INFO - Job 49: Status=Unknown, Document=Test Page
+2024-11-16 17:26:36,656 - INFO - Current queue length: 3
+2024-11-16 17:26:36,656 - INFO - Attempting to clear 3 jobs...
+2024-11-16 17:26:36,656 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:26:36,656 - INFO - Found 3 jobs to clear
+2024-11-16 17:26:36,656 - INFO - Processing job 47 (Status: Unknown)
+2024-11-16 17:26:36,656 - INFO - Attempting to cancel job 47
+2024-11-16 17:26:36,758 - INFO - Attempting to delete job 47
+2024-11-16 17:26:36,758 - INFO - Job 47 appears to be already cleared
+2024-11-16 17:26:36,758 - INFO - Processing job 48 (Status: Unknown)
+2024-11-16 17:26:36,758 - INFO - Attempting to cancel job 48
+2024-11-16 17:26:36,859 - INFO - Attempting to delete job 48
+2024-11-16 17:26:36,859 - INFO - Job 48 appears to be already cleared
+2024-11-16 17:26:36,859 - INFO - Processing job 49 (Status: Unknown)
+2024-11-16 17:26:36,859 - INFO - Attempting to cancel job 49
+2024-11-16 17:26:36,960 - INFO - Attempting to delete job 49
+2024-11-16 17:26:36,960 - INFO - Job 49 appears to be already cleared
+2024-11-16 17:26:36,960 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:26:36,960 - INFO - Printer handle closed
+2024-11-16 17:26:36,960 - INFO - Queue cleared successfully
+2024-11-16 17:26:46,968 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:26:46,968 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:26:46,968 - INFO - Current queue length: 0
+2024-11-16 17:26:56,972 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:26:56,973 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:26:56,973 - INFO - Current queue length: 0
+2024-11-16 17:27:06,974 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:06,974 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 17:27:06,974 - INFO - Job 50: Status=Unknown, Document=Test Page
+2024-11-16 17:27:06,974 - INFO - Job 51: Status=Unknown, Document=Test Page
+2024-11-16 17:27:06,974 - INFO - Current queue length: 2
+2024-11-16 17:27:06,974 - INFO - Attempting to clear 2 jobs...
+2024-11-16 17:27:06,974 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:27:06,975 - INFO - Found 2 jobs to clear
+2024-11-16 17:27:06,975 - INFO - Processing job 50 (Status: Unknown)
+2024-11-16 17:27:06,975 - INFO - Attempting to cancel job 50
+2024-11-16 17:27:07,076 - INFO - Attempting to delete job 50
+2024-11-16 17:27:07,076 - INFO - Job 50 appears to be already cleared
+2024-11-16 17:27:07,076 - INFO - Processing job 51 (Status: Unknown)
+2024-11-16 17:27:07,076 - INFO - Attempting to cancel job 51
+2024-11-16 17:27:07,177 - INFO - Attempting to delete job 51
+2024-11-16 17:27:07,177 - INFO - Job 51 appears to be already cleared
+2024-11-16 17:27:07,177 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:27:07,178 - INFO - Printer handle closed
+2024-11-16 17:27:07,178 - INFO - Queue cleared successfully
+2024-11-16 17:27:14,300 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:14,300 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:27:14,300 - INFO - Found 1 jobs to clear
+2024-11-16 17:27:14,300 - INFO - Processing job 52 (Status: Unknown)
+2024-11-16 17:27:14,300 - INFO - Attempting to cancel job 52
+2024-11-16 17:27:14,401 - INFO - Attempting to delete job 52
+2024-11-16 17:27:14,401 - INFO - Job 52 appears to be already cleared
+2024-11-16 17:27:14,401 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:27:14,401 - INFO - Printer handle closed
+2024-11-16 17:27:14,401 - INFO - Queue cleared successfully
+2024-11-16 17:27:17,184 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:17,185 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:27:17,185 - INFO - Current queue length: 0
+2024-11-16 17:27:24,566 - INFO - Manually clearing queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:24,567 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:27:24,567 - INFO - Found 3 jobs to clear
+2024-11-16 17:27:24,567 - INFO - Processing job 53 (Status: Unknown)
+2024-11-16 17:27:24,567 - INFO - Attempting to cancel job 53
+2024-11-16 17:27:24,668 - INFO - Attempting to delete job 53
+2024-11-16 17:27:24,668 - INFO - Job 53 appears to be already cleared
+2024-11-16 17:27:24,668 - INFO - Processing job 54 (Status: Unknown)
+2024-11-16 17:27:24,668 - INFO - Attempting to cancel job 54
+2024-11-16 17:27:24,769 - INFO - Attempting to delete job 54
+2024-11-16 17:27:24,769 - INFO - Job 54 appears to be already cleared
+2024-11-16 17:27:24,769 - INFO - Processing job 55 (Status: Unknown)
+2024-11-16 17:27:24,769 - INFO - Attempting to cancel job 55
+2024-11-16 17:27:24,870 - INFO - Attempting to delete job 55
+2024-11-16 17:27:24,870 - INFO - Job 55 appears to be already cleared
+2024-11-16 17:27:24,870 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:27:24,871 - INFO - Printer handle closed
+2024-11-16 17:27:24,871 - INFO - Queue cleared successfully
+2024-11-16 17:27:27,196 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:27,197 - INFO - Queue length for AnyDesk v4 Printer Driver: 1
+2024-11-16 17:27:27,197 - INFO - Job 56: Status=Unknown, Document=Test Page
+2024-11-16 17:27:27,197 - INFO - Current queue length: 1
+2024-11-16 17:27:27,197 - INFO - Attempting to clear 1 jobs...
+2024-11-16 17:27:27,197 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:27:27,198 - INFO - Found 1 jobs to clear
+2024-11-16 17:27:27,198 - INFO - Processing job 56 (Status: Unknown)
+2024-11-16 17:27:27,198 - INFO - Attempting to cancel job 56
+2024-11-16 17:27:27,299 - INFO - Attempting to delete job 56
+2024-11-16 17:27:27,299 - INFO - Job 56 appears to be already cleared
+2024-11-16 17:27:27,299 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:27:27,299 - INFO - Printer handle closed
+2024-11-16 17:27:27,299 - INFO - Queue cleared successfully
+2024-11-16 17:27:37,313 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:37,313 - INFO - Queue length for AnyDesk v4 Printer Driver: 3
+2024-11-16 17:27:37,313 - INFO - Job 57: Status=Unknown, Document=Test Page
+2024-11-16 17:27:37,313 - INFO - Job 58: Status=Unknown, Document=Test Page
+2024-11-16 17:27:37,313 - INFO - Job 59: Status=Unknown, Document=Test Page
+2024-11-16 17:27:37,314 - INFO - Current queue length: 3
+2024-11-16 17:27:37,314 - INFO - Attempting to clear 3 jobs...
+2024-11-16 17:27:37,314 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:27:37,314 - INFO - Found 3 jobs to clear
+2024-11-16 17:27:37,314 - INFO - Processing job 57 (Status: Unknown)
+2024-11-16 17:27:37,314 - INFO - Attempting to cancel job 57
+2024-11-16 17:27:37,416 - INFO - Attempting to delete job 57
+2024-11-16 17:27:37,416 - INFO - Job 57 appears to be already cleared
+2024-11-16 17:27:37,416 - INFO - Processing job 58 (Status: Unknown)
+2024-11-16 17:27:37,416 - INFO - Attempting to cancel job 58
+2024-11-16 17:27:37,517 - INFO - Attempting to delete job 58
+2024-11-16 17:27:37,517 - INFO - Job 58 appears to be already cleared
+2024-11-16 17:27:37,517 - INFO - Processing job 59 (Status: Unknown)
+2024-11-16 17:27:37,517 - INFO - Attempting to cancel job 59
+2024-11-16 17:27:37,618 - INFO - Attempting to delete job 59
+2024-11-16 17:27:37,618 - INFO - Job 59 appears to be already cleared
+2024-11-16 17:27:37,618 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:27:37,618 - INFO - Printer handle closed
+2024-11-16 17:27:37,618 - INFO - Queue cleared successfully
+2024-11-16 17:27:38,519 - INFO - Tray icon created successfully
+2024-11-16 17:27:38,521 - INFO - Window minimized to tray successfully
+2024-11-16 17:27:38,525 - INFO - Window minimized to tray successfully
+2024-11-16 17:27:43,930 - INFO - Tray icon created successfully
+2024-11-16 17:27:43,935 - INFO - Window minimized to tray successfully
+2024-11-16 17:27:43,939 - INFO - Window minimized to tray successfully
+2024-11-16 17:27:47,623 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:27:47,623 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:27:47,624 - INFO - Current queue length: 0
+2024-11-16 17:28:26,103 - INFO - Starting PQ Manager...
+2024-11-16 17:28:26,103 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2024-11-16 17:28:26,103 - INFO - Project root: C:\Users\pctec\AppData\Local\Temp\_MEI184682
+2024-11-16 17:28:26,289 - INFO - Using existing settings at C:\Users\pctec\AppData\Roaming\PQManager\settings.json
+2024-11-16 17:28:26,289 - INFO - Initializing PrinterManager
+2024-11-16 17:28:26,289 - INFO - Successfully loaded win32print
+2024-11-16 17:28:26,289 - INFO - Successfully loaded win32api
+2024-11-16 17:28:26,290 - INFO - Successfully loaded win32con
+2024-11-16 17:28:26,293 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:28:26,294 - INFO - Loaded settings: {'selected_printer': 'AnyDesk v4 Printer Driver', 'monitoring_interval': 10000, 'start_minimized': False, 'auto_start_monitoring': True}
+2024-11-16 17:28:26,294 - INFO - Found printers: ['OneNote for Windows 10', 'Microsoft XPS Document Writer', 'Microsoft Print to PDF', 'Fax', 'AnyDesk v4 Printer Driver']
+2024-11-16 17:28:26,294 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 17:28:26,294 - INFO - Starting monitoring for AnyDesk v4 Printer Driver
+2024-11-16 17:28:26,294 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:28:26,295 - INFO - Queue length for AnyDesk v4 Printer Driver: 0
+2024-11-16 17:28:26,296 - INFO - Current queue length: 0
+2024-11-16 17:28:36,299 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:28:36,309 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 17:28:36,309 - INFO - Job 60: Status=Unknown, Document=Test Page
+2024-11-16 17:28:36,309 - INFO - Job 61: Status=Spooling, Document=Test Page
+2024-11-16 17:28:36,309 - INFO - Current queue length: 2
+2024-11-16 17:28:36,309 - INFO - Attempting to clear 2 jobs...
+2024-11-16 17:28:36,309 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:28:36,309 - INFO - Found 2 jobs to clear
+2024-11-16 17:28:36,309 - INFO - Processing job 60 (Status: Unknown)
+2024-11-16 17:28:36,309 - INFO - Attempting to cancel job 60
+2024-11-16 17:28:36,411 - INFO - Attempting to delete job 60
+2024-11-16 17:28:36,411 - INFO - Job 60 appears to be already cleared
+2024-11-16 17:28:36,411 - INFO - Processing job 61 (Status: Spooling)
+2024-11-16 17:28:36,411 - INFO - Attempting to cancel job 61
+2024-11-16 17:28:36,512 - INFO - Attempting to delete job 61
+2024-11-16 17:28:36,512 - INFO - Job 61 appears to be already cleared
+2024-11-16 17:28:36,512 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:28:36,512 - INFO - Printer handle closed
+2024-11-16 17:28:36,512 - INFO - Queue cleared successfully
+2024-11-16 17:28:42,417 - INFO - Tray icon created successfully
+2024-11-16 17:28:42,422 - INFO - Window minimized to tray successfully
+2024-11-16 17:28:42,428 - INFO - Window minimized to tray successfully
+2024-11-16 17:28:46,527 - INFO - Checking queue for AnyDesk v4 Printer Driver
+2024-11-16 17:28:46,527 - INFO - Queue length for AnyDesk v4 Printer Driver: 2
+2024-11-16 17:28:46,527 - INFO - Job 62: Status=Unknown, Document=Test Page
+2024-11-16 17:28:46,527 - INFO - Job 63: Status=Unknown, Document=Test Page
+2024-11-16 17:28:46,527 - INFO - Current queue length: 2
+2024-11-16 17:28:46,527 - INFO - Attempting to clear 2 jobs...
+2024-11-16 17:28:46,527 - INFO - Attempting to open printer: AnyDesk v4 Printer Driver
+2024-11-16 17:28:46,528 - INFO - Found 2 jobs to clear
+2024-11-16 17:28:46,528 - INFO - Processing job 62 (Status: Unknown)
+2024-11-16 17:28:46,528 - INFO - Attempting to cancel job 62
+2024-11-16 17:28:46,629 - INFO - Attempting to delete job 62
+2024-11-16 17:28:46,629 - INFO - Job 62 appears to be already cleared
+2024-11-16 17:28:46,629 - INFO - Processing job 63 (Status: Unknown)
+2024-11-16 17:28:46,629 - INFO - Attempting to cancel job 63
+2024-11-16 17:28:46,730 - INFO - Attempting to delete job 63
+2024-11-16 17:28:46,730 - INFO - Job 63 appears to be already cleared
+2024-11-16 17:28:46,730 - INFO - Queue verified empty - all jobs cleared successfully
+2024-11-16 17:28:46,730 - INFO - Printer handle closed
+2024-11-16 17:28:46,731 - INFO - Queue cleared successfully

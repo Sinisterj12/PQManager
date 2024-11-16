@@ -121,10 +121,31 @@ class TrayManager:
 
     def _exit_application(self, icon, item):
         """Clean exit from the application"""
-        if self.tray_icon:
-            self.tray_icon.visible = False
-            self.tray_icon.stop()
-        self.root.quit()
+        try:
+            # Stop the tray icon first
+            if self.tray_icon:
+                self.tray_icon.visible = False
+                self.tray_icon.stop()
+                self.tray_icon = None
+            
+            # Schedule the actual exit
+            self.root.after(0, self._perform_exit)
+        except Exception as e:
+            logging.error(f"Error during exit: {e}")
+            # Force exit if needed
+            self.root.quit()
+
+    def _perform_exit(self):
+        """Perform the actual exit operations"""
+        try:
+            # Destroy the root window
+            self.root.quit()
+            self.root.destroy()
+        except Exception as e:
+            logging.error(f"Error during window destruction: {e}")
+            # Force exit if needed
+            import sys
+            sys.exit(0)
 
     def cleanup(self):
         """Clean up resources"""
