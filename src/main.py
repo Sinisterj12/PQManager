@@ -6,98 +6,131 @@ import json
 import os
 from src.tray_manager import TrayManager
 from src.config_manager import ConfigManager
+from src.printer_manager import PrinterManager
+import time
 
-# Create necessary directories
-os.makedirs('logs', exist_ok=True)
+class Application:
+    def __init__(self):
+        # Create necessary directories
+        os.makedirs('logs', exist_ok=True)
 
-# Setup logging
-logging.basicConfig(
-    filename='logs/printer_queue.log',
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+        # Setup logging
+        logging.basicConfig(
+            filename='logs/printer_queue.log',
+            level=logging.DEBUG,
+            format='%(asctime)s - %(levelname)s - %(message)s'
+        )
 
-# Initialize config manager
-config_manager = ConfigManager()
+        # Initialize the main window
+        self.root = tk.Tk()
+        self.root.title("PQ Manager v1.1")
+        self.root.geometry("300x200")
+        self.root.resizable(False, False)
 
-# Initialize the main window
-root = tk.Tk()
-root.title("Printer Queue Manager")
-root.geometry("300x200")
-root.resizable(False, False)
+        # Initialize managers
+        self.config_manager = ConfigManager()
+        self.printer_manager = PrinterManager(self.config_manager)
+        self.tray_manager = TrayManager(self.root)
 
-# Global variables
-printer_var = tk.StringVar()
-tray_manager = TrayManager(root)
-is_monitoring = False
+        # Global variables
+        self.printer_var = tk.StringVar()
+        self.is_monitoring = False
+        self.last_queue_check = 0
+        self.queue_check_interval = 15  # seconds
 
-# Function to get the list of printers
-def get_printers():
-    return [printer[2] for printer in win32print.EnumPrinters(win32print.PRINTER_ENUM_LOCAL)]
+        # Create GUI
+        self.create_gui()
+        
+        # Load saved settings and start monitoring
+        self.load_saved_settings()
 
-# Function to clear the printer queue for the selected printer
-def clear_queue():
-    selected_printer = printer_var.get()
-    if selected_printer:
-        try:
-            printer_handle = win32print.OpenPrinter(selected_printer)
-            jobs = win32print.EnumJobs(printer_handle, 0, -1, 1)
-            for job in jobs:
-                win32print.SetJob(printer_handle, job['JobId'], 0, None, win32print.JOB_CONTROL_DELETE)
-            win32print.ClosePrinter(printer_handle)
-            logging.info(f"Queue cleared for {selected_printer}.")
-        except Exception as e:
-            logging.error(f"Error clearing queue: {e}")
-    else:
-        logging.warning("No printer selected.")
+    def monitor_queue(self):
+        """Monitor printer queue with enhanced error handling"""
+        if self.is_monitoring and self.root.winfo_exists():
+            current_time = time.time()
+            
+            if current_time - self.last_queue_check >= self.queue_check_interval:
+                selected_printer = self.printer_var.get()
+                if selected_printer and selected_printer != "Select Printer":
+                    # Check printer status first
+                    if self.printer_manager.check_printer_status(selected_printer):
+                        # Only clear queue if printer is responsive
+                        queue_length = self.printer_manager.get_queue_length(selected_printer)
+                        if queue_length > 0:
+                            self.printer_manager.clear_queue(selected_printer)
+                            logging.info(f"Cleared {queue_length} jobs from {selected_printer}")
+                    self.last_queue_check = current_time
+            
+            # Schedule next check
+            self.root.after(1000, self.monitor_queue)
 
-# Function to monitor and clear the queue periodically
-def monitor_queue():
-    if is_monitoring and root.winfo_exists():
-        clear_queue()
-        root.after(15000, monitor_queue)  # 15000 ms = 15 seconds
+    def start_monitoring(self):
+        """Start monitoring with status check"""
+        if not self.is_monitoring:
+            self.is_monitoring = True
+            self.monitor_queue()
+            logging.info("Started printer monitoring")
 
-# Function to start monitoring after a printer is selected
-def start_monitoring():
-    global is_monitoring
-    if not is_monitoring:
-        is_monitoring = True
-        monitor_queue()
+    def on_printer_select(self, event=None):
+        """Handle printer selection with enhanced error handling"""
+        selected_printer = self.printer_var.get()
+        if selected_printer and selected_printer != "Select Printer":
+            if self.printer_manager.check_printer_status(selected_printer):
+                self.config_manager.update_setting('selected_printer', selected_printer)
+                self.config_manager.update_setting('auto_start_monitoring', True)
+                self.start_monitoring()
+                logging.info(f"Selected and verified printer: {selected_printer}")
+            else:
+                logging.warning(f"Selected printer {selected_printer} is not ready")
 
-# Function to handle printer selection and start monitoring
-def on_printer_select(event):
-    selected_printer = printer_var.get()
-    if selected_printer and selected_printer != "Select Printer":
-        if config_manager.update_setting('selected_printer', selected_printer):
-            logging.info(f"Saved printer selection: {selected_printer}")
-            start_monitoring()
-        else:
-            logging.error("Failed to save printer selection")
+    def create_gui(self):
+        """Create the GUI with improved layout"""
+        frame = ttk.Frame(self.root)
+        frame.pack(expand=True, fill='both', padx=10, pady=10)
 
-# Function to load the saved printer on startup
-def load_saved_printer():
-    settings = config_manager.load_settings()
-    saved_printer = settings.get('selected_printer')
-    if saved_printer and saved_printer in printer_dropdown['values']:
-        printer_var.set(saved_printer)
-        logging.info(f"Loaded saved printer: {saved_printer}")
-        if settings.get('auto_start_monitoring', True):
-            start_monitoring()
+        # Printer selection
+        printer_label = ttk.Label(frame, text="Select Receipt Printer:")
+        printer_label.pack(pady=(0, 5))
 
-# Create GUI elements
-printer_dropdown = ttk.Combobox(root, textvariable=printer_var)
-printer_dropdown['values'] = get_printers()
-printer_dropdown.pack(pady=10)
-printer_dropdown.set("Select Printer")
-printer_dropdown.bind('<<ComboboxSelected>>', on_printer_select)
+        printer_dropdown = ttk.Combobox(frame, textvariable=self.printer_var, width=30)
+        printer_dropdown['values'] = self.printer_manager.get_printers()
+        printer_dropdown.pack(pady=(0, 10))
+        printer_dropdown.set("Select Printer")
+        printer_dropdown.bind('<<ComboboxSelected>>', self.on_printer_select)
 
-# Button to manually clear the queue
-clear_button = tk.Button(root, text="Clear Printer Queue", command=clear_queue)
-clear_button.pack(pady=10)
+        # Queue management
+        clear_button = ttk.Button(
+            frame, 
+            text="Clear Print Queue", 
+            command=lambda: self.printer_manager.clear_queue(self.printer_var.get())
+        )
+        clear_button.pack(pady=5)
 
-# Minimize to tray button
-tray_button = tk.Button(root, text="Minimize to Tray", command=lambda: tray_manager.minimize_to_tray())
-tray_button.pack(pady=10)
+        # Bottom attribution
+        author_label = ttk.Label(frame, text="by James", font=('Segoe UI', 8, 'italic'))
+        author_label.pack(side='right', padx=5, pady=(10, 0))
 
-# Load saved printer settings
-load_saved_printer()
+    def load_saved_settings(self):
+        """Load saved settings and initialize printer"""
+        settings = self.config_manager.load_settings()
+        saved_printer = settings.get('selected_printer')
+        
+        if saved_printer and saved_printer in self.printer_manager.get_printers():
+            self.printer_var.set(saved_printer)
+            if settings.get('auto_start_monitoring', True):
+                self.start_monitoring()
+        
+        # Start minimized if configured
+        if settings.get('start_minimized', True):  # Default to True for stores
+            self.root.after(1000, self.tray_manager.minimize_to_tray)
+
+    def run(self):
+        """Start the application"""
+        self.root.mainloop()
+
+def main():
+    app = Application()
+    app.run()
+
+if __name__ == "__main__":
+    main()

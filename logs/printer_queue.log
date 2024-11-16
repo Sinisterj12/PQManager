@@ -557,3 +557,541 @@ RuntimeError: main thread is not in main loop
 2024-11-10 15:17:23,898 - DEBUG - Importing XVThumbImagePlugin
 2024-11-10 15:17:23,899 - INFO - Tray icon created successfully
 2024-11-10 15:17:36,488 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:03:34,476 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 13:03:34,476 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:03:49,477 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:03:49,939 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:04:04,485 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:04:17,012 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:04:17,013 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:04:17,013 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:04:17,013 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:04:17,014 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:04:17,015 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:04:17,017 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:04:17,018 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:04:17,020 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:04:17,020 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:04:17,021 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:04:17,021 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:04:17,022 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:04:17,022 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:04:17,022 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:04:17,023 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:04:17,023 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:04:17,025 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:04:17,025 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:04:17,026 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:04:17,026 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:04:17,027 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:04:17,027 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:04:17,027 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:04:17,027 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:04:17,028 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:04:17,028 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:04:17,029 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:04:17,033 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:04:17,033 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:04:17,035 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:04:17,035 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:04:17,035 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:04:17,040 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:04:17,041 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:04:17,041 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:04:17,041 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:04:17,041 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:04:17,042 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:04:17,042 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:04:17,043 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:04:17,043 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:04:17,044 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:04:17,044 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:04:17,060 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:04:17,061 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:04:17,062 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:04:17,063 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:04:17,064 - INFO - Tray icon created successfully
+2024-11-16 13:04:19,488 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:06:56,881 - INFO - Loaded saved printer: AnyDesk v4 Printer Driver
+2024-11-16 13:06:56,881 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:07:11,890 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:07:26,893 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:07:41,907 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:07:56,917 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:08:11,922 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:08:26,936 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:08:41,948 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:08:56,952 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:09:11,956 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:09:26,970 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:09:41,973 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:09:56,979 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:10:14,515 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:10:14,515 - INFO - Automatically started monitoring for saved printer: AnyDesk v4 Printer Driver
+2024-11-16 13:10:21,688 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:10:22,550 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:10:22,551 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:10:22,551 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:10:22,551 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:10:22,552 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:10:22,553 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:10:22,555 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:10:22,556 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:10:22,557 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:10:22,557 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:10:22,558 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:10:22,558 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:10:22,559 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:10:22,559 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:10:22,559 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:10:22,560 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:10:22,560 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:10:22,562 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:10:22,562 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:10:22,563 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:10:22,563 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:10:22,564 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:10:22,564 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:10:22,564 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:10:22,564 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:10:22,565 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:10:22,565 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:10:22,566 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:10:22,570 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:10:22,571 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:10:22,571 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:10:22,572 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:10:22,572 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:10:22,576 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:10:22,577 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:10:22,577 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:10:22,577 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:10:22,577 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:10:22,578 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:10:22,578 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:10:22,579 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:10:22,579 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:10:22,580 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:10:22,580 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:10:22,581 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:10:22,581 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:10:22,582 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:10:22,583 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:10:22,584 - INFO - Tray icon created successfully
+2024-11-16 13:10:22,589 - INFO - Window minimized to tray successfully
+2024-11-16 13:10:29,523 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:10:32,466 - INFO - Tray icon created successfully
+2024-11-16 13:10:32,474 - INFO - Window minimized to tray successfully
+2024-11-16 13:10:44,534 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:10:59,543 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:11:14,544 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:11:29,545 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:11:44,551 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:11:59,558 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:12:14,567 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:12:29,571 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:12:44,578 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:12:59,588 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:13:13,380 - INFO - Tray icon created successfully
+2024-11-16 13:13:13,390 - INFO - Window minimized to tray successfully
+2024-11-16 13:13:14,591 - INFO - Queue cleared for AnyDesk v4 Printer Driver.
+2024-11-16 13:13:22,324 - INFO - Autostart registry entry verified
+2024-11-16 13:15:39,649 - INFO - Autostart registry entry verified
+2024-11-16 13:15:39,655 - INFO - Started printer monitoring
+2024-11-16 13:15:40,669 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:15:40,670 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:15:40,670 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:15:40,670 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:15:40,670 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:15:40,671 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:15:40,674 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:15:40,674 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:15:40,675 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:15:40,676 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:15:40,677 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:15:40,677 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:15:40,678 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:15:40,678 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:15:40,678 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:15:40,678 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:15:40,679 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:15:40,680 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:15:40,681 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:15:40,682 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:15:40,682 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:15:40,683 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:15:40,683 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:15:40,683 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:15:40,683 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:15:40,684 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:15:40,684 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:15:40,684 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:15:40,689 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:15:40,689 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:15:40,690 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:15:40,690 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:15:40,690 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:15:40,695 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:15:40,696 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:15:40,696 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:15:40,696 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:15:40,696 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:15:40,697 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:15:40,697 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:15:40,698 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:15:40,698 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:15:40,699 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:15:40,699 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:15:40,700 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:15:40,700 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:15:40,701 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:15:40,702 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:15:40,703 - INFO - Tray icon created successfully
+2024-11-16 13:15:40,712 - INFO - Window minimized to tray successfully
+2024-11-16 13:16:11,269 - INFO - Tray icon created successfully
+2024-11-16 13:16:11,273 - INFO - Window minimized to tray successfully
+2024-11-16 13:32:08,471 - INFO - Tray icon created successfully
+2024-11-16 13:32:08,478 - INFO - Window minimized to tray successfully
+2024-11-16 13:32:17,885 - INFO - Autostart registry entry verified
+2024-11-16 13:32:17,896 - INFO - Started printer monitoring
+2024-11-16 13:32:18,918 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:32:18,919 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:32:18,919 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:32:18,920 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:32:18,920 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:32:18,921 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:32:18,923 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:32:18,924 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:32:18,925 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:32:18,926 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:32:18,927 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:32:18,927 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:32:18,927 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:32:18,927 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:32:18,928 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:32:18,928 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:32:18,928 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:32:18,930 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:32:18,930 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:32:18,931 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:32:18,931 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:32:18,932 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:32:18,932 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:32:18,932 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:32:18,932 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:32:18,933 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:32:18,933 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:32:18,934 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:32:18,938 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:32:18,938 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:32:18,939 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:32:18,939 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:32:18,939 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:32:18,944 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:32:18,945 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:32:18,945 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:32:18,945 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:32:18,945 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:32:18,946 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:32:18,946 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:32:18,947 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:32:18,947 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:32:18,948 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:32:18,948 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:32:18,949 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:32:18,949 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:32:18,950 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:32:18,951 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:32:18,952 - INFO - Tray icon created successfully
+2024-11-16 13:32:18,956 - INFO - Window minimized to tray successfully
+2024-11-16 13:32:30,024 - INFO - Autostart registry entry verified
+2024-11-16 13:32:30,030 - INFO - Started printer monitoring
+2024-11-16 13:32:31,047 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:32:31,048 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:32:31,048 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:32:31,048 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:32:31,049 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:32:31,050 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:32:31,052 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:32:31,052 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:32:31,054 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:32:31,054 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:32:31,054 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:32:31,054 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:32:31,055 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:32:31,056 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:32:31,056 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:32:31,056 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:32:31,057 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:32:31,058 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:32:31,059 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:32:31,059 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:32:31,060 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:32:31,060 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:32:31,060 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:32:31,060 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:32:31,061 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:32:31,061 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:32:31,062 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:32:31,062 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:32:31,066 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:32:31,067 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:32:31,067 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:32:31,068 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:32:31,068 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:32:31,073 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:32:31,073 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:32:31,073 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:32:31,073 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:32:31,074 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:32:31,074 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:32:31,074 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:32:31,075 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:32:31,075 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:32:31,076 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:32:31,076 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:32:31,077 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:32:31,077 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:32:31,078 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:32:31,079 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:32:31,080 - INFO - Tray icon created successfully
+2024-11-16 13:32:31,088 - INFO - Window minimized to tray successfully
+2024-11-16 13:33:29,410 - INFO - Tray icon created successfully
+2024-11-16 13:33:29,414 - INFO - Window minimized to tray successfully
+2024-11-16 13:34:13,885 - INFO - Tray icon created successfully
+2024-11-16 13:34:13,892 - INFO - Window minimized to tray successfully
+2024-11-16 13:34:40,398 - INFO - Autostart registry entry verified
+2024-11-16 13:34:40,410 - INFO - Started printer monitoring
+2024-11-16 13:34:41,425 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:34:41,426 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:34:41,426 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:34:41,427 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:34:41,427 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:34:41,428 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:34:41,431 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:34:41,431 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:34:41,433 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:34:41,433 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:34:41,434 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:34:41,434 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:34:41,435 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:34:41,435 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:34:41,435 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:34:41,435 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:34:41,436 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:34:41,437 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:34:41,438 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:34:41,438 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:34:41,438 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:34:41,439 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:34:41,439 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:34:41,440 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:34:41,440 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:34:41,441 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:34:41,441 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:34:41,441 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:34:41,445 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:34:41,446 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:34:41,446 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:34:41,447 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:34:41,447 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:34:41,452 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:34:41,452 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:34:41,452 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:34:41,452 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:34:41,453 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:34:41,453 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:34:41,454 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:34:41,454 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:34:41,454 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:34:41,455 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:34:41,455 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:34:41,456 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:34:41,457 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:34:41,458 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:34:41,458 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:34:41,460 - INFO - Tray icon created successfully
+2024-11-16 13:34:41,468 - INFO - Window minimized to tray successfully
+2024-11-16 13:37:11,785 - INFO - Tray icon created successfully
+2024-11-16 13:37:11,789 - INFO - Window minimized to tray successfully
+2024-11-16 13:37:18,407 - INFO - Tray icon created successfully
+2024-11-16 13:37:18,415 - INFO - Window minimized to tray successfully
+2024-11-16 13:38:31,124 - INFO - Tray icon created successfully
+2024-11-16 13:38:31,130 - INFO - Window minimized to tray successfully
+2024-11-16 13:38:37,814 - INFO - Autostart registry entry verified
+2024-11-16 13:38:37,818 - INFO - Started printer monitoring
+2024-11-16 13:38:38,833 - DEBUG - Importing BlpImagePlugin
+2024-11-16 13:38:38,834 - DEBUG - Importing BmpImagePlugin
+2024-11-16 13:38:38,834 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 13:38:38,834 - DEBUG - Importing CurImagePlugin
+2024-11-16 13:38:38,835 - DEBUG - Importing DcxImagePlugin
+2024-11-16 13:38:38,836 - DEBUG - Importing DdsImagePlugin
+2024-11-16 13:38:38,838 - DEBUG - Importing EpsImagePlugin
+2024-11-16 13:38:38,839 - DEBUG - Importing FitsImagePlugin
+2024-11-16 13:38:38,839 - DEBUG - Importing FliImagePlugin
+2024-11-16 13:38:38,840 - DEBUG - Importing FpxImagePlugin
+2024-11-16 13:38:38,841 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 13:38:38,841 - DEBUG - Importing FtexImagePlugin
+2024-11-16 13:38:38,841 - DEBUG - Importing GbrImagePlugin
+2024-11-16 13:38:38,842 - DEBUG - Importing GifImagePlugin
+2024-11-16 13:38:38,842 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 13:38:38,842 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 13:38:38,843 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 13:38:38,844 - DEBUG - Importing IcoImagePlugin
+2024-11-16 13:38:38,845 - DEBUG - Importing ImImagePlugin
+2024-11-16 13:38:38,845 - DEBUG - Importing ImtImagePlugin
+2024-11-16 13:38:38,846 - DEBUG - Importing IptcImagePlugin
+2024-11-16 13:38:38,846 - DEBUG - Importing JpegImagePlugin
+2024-11-16 13:38:38,846 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 13:38:38,846 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 13:38:38,847 - DEBUG - Importing MicImagePlugin
+2024-11-16 13:38:38,848 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 13:38:38,848 - DEBUG - Importing MpegImagePlugin
+2024-11-16 13:38:38,848 - DEBUG - Importing MpoImagePlugin
+2024-11-16 13:38:38,853 - DEBUG - Importing MspImagePlugin
+2024-11-16 13:38:38,853 - DEBUG - Importing PalmImagePlugin
+2024-11-16 13:38:38,854 - DEBUG - Importing PcdImagePlugin
+2024-11-16 13:38:38,854 - DEBUG - Importing PcxImagePlugin
+2024-11-16 13:38:38,854 - DEBUG - Importing PdfImagePlugin
+2024-11-16 13:38:38,859 - DEBUG - Importing PixarImagePlugin
+2024-11-16 13:38:38,860 - DEBUG - Importing PngImagePlugin
+2024-11-16 13:38:38,860 - DEBUG - Importing PpmImagePlugin
+2024-11-16 13:38:38,860 - DEBUG - Importing PsdImagePlugin
+2024-11-16 13:38:38,860 - DEBUG - Importing QoiImagePlugin
+2024-11-16 13:38:38,861 - DEBUG - Importing SgiImagePlugin
+2024-11-16 13:38:38,861 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 13:38:38,862 - DEBUG - Importing SunImagePlugin
+2024-11-16 13:38:38,863 - DEBUG - Importing TgaImagePlugin
+2024-11-16 13:38:38,863 - DEBUG - Importing TiffImagePlugin
+2024-11-16 13:38:38,863 - DEBUG - Importing WebPImagePlugin
+2024-11-16 13:38:38,864 - DEBUG - Importing WmfImagePlugin
+2024-11-16 13:38:38,865 - DEBUG - Importing XbmImagePlugin
+2024-11-16 13:38:38,865 - DEBUG - Importing XpmImagePlugin
+2024-11-16 13:38:38,866 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 13:38:38,868 - INFO - Tray icon created successfully
+2024-11-16 13:38:38,875 - INFO - Window minimized to tray successfully
+2024-11-16 13:38:56,543 - INFO - Tray icon created successfully
+2024-11-16 13:38:56,547 - INFO - Window minimized to tray successfully
+2024-11-16 13:39:37,899 - INFO - Tray icon created successfully
+2024-11-16 13:39:37,906 - INFO - Window minimized to tray successfully
+2024-11-16 16:21:21,305 - INFO - Autostart registry entry verified
+2024-11-16 16:21:21,310 - INFO - Started printer monitoring
+2024-11-16 16:21:22,332 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:21:22,333 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:21:22,333 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:21:22,334 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:21:22,334 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:21:22,335 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:21:22,337 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:21:22,338 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:21:22,339 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:21:22,340 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:21:22,341 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:21:22,341 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:21:22,341 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:21:22,342 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:21:22,342 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:21:22,342 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:21:22,343 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:21:22,344 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:21:22,345 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:21:22,345 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:21:22,346 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:21:22,346 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:21:22,346 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:21:22,346 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:21:22,347 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:21:22,348 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:21:22,348 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:21:22,348 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:21:22,353 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:21:22,353 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:21:22,354 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:21:22,355 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:21:22,355 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:21:22,360 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:21:22,360 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:21:22,360 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:21:22,360 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:21:22,361 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:21:22,361 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:21:22,362 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:21:22,362 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:21:22,363 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:21:22,363 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:21:22,363 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:21:22,364 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:21:22,365 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:21:22,366 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:21:22,366 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:21:22,368 - INFO - Tray icon created successfully
+2024-11-16 16:21:22,376 - INFO - Window minimized to tray successfully
+2024-11-16 16:22:12,495 - INFO - Tray icon created successfully
+2024-11-16 16:22:12,502 - INFO - Window minimized to tray successfully
+2024-11-16 16:22:20,041 - INFO - Tray icon created successfully
+2024-11-16 16:22:20,049 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:28,044 - INFO - Autostart registry entry verified
+2024-11-16 16:24:28,048 - INFO - Started printer monitoring
+2024-11-16 16:24:29,066 - DEBUG - Importing BlpImagePlugin
+2024-11-16 16:24:29,066 - DEBUG - Importing BmpImagePlugin
+2024-11-16 16:24:29,066 - DEBUG - Importing BufrStubImagePlugin
+2024-11-16 16:24:29,067 - DEBUG - Importing CurImagePlugin
+2024-11-16 16:24:29,067 - DEBUG - Importing DcxImagePlugin
+2024-11-16 16:24:29,068 - DEBUG - Importing DdsImagePlugin
+2024-11-16 16:24:29,070 - DEBUG - Importing EpsImagePlugin
+2024-11-16 16:24:29,071 - DEBUG - Importing FitsImagePlugin
+2024-11-16 16:24:29,072 - DEBUG - Importing FliImagePlugin
+2024-11-16 16:24:29,073 - DEBUG - Importing FpxImagePlugin
+2024-11-16 16:24:29,074 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-16 16:24:29,074 - DEBUG - Importing FtexImagePlugin
+2024-11-16 16:24:29,074 - DEBUG - Importing GbrImagePlugin
+2024-11-16 16:24:29,075 - DEBUG - Importing GifImagePlugin
+2024-11-16 16:24:29,075 - DEBUG - Importing GribStubImagePlugin
+2024-11-16 16:24:29,075 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-16 16:24:29,076 - DEBUG - Importing IcnsImagePlugin
+2024-11-16 16:24:29,077 - DEBUG - Importing IcoImagePlugin
+2024-11-16 16:24:29,077 - DEBUG - Importing ImImagePlugin
+2024-11-16 16:24:29,078 - DEBUG - Importing ImtImagePlugin
+2024-11-16 16:24:29,079 - DEBUG - Importing IptcImagePlugin
+2024-11-16 16:24:29,079 - DEBUG - Importing JpegImagePlugin
+2024-11-16 16:24:29,079 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-16 16:24:29,079 - DEBUG - Importing McIdasImagePlugin
+2024-11-16 16:24:29,080 - DEBUG - Importing MicImagePlugin
+2024-11-16 16:24:29,081 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-16 16:24:29,081 - DEBUG - Importing MpegImagePlugin
+2024-11-16 16:24:29,081 - DEBUG - Importing MpoImagePlugin
+2024-11-16 16:24:29,085 - DEBUG - Importing MspImagePlugin
+2024-11-16 16:24:29,086 - DEBUG - Importing PalmImagePlugin
+2024-11-16 16:24:29,086 - DEBUG - Importing PcdImagePlugin
+2024-11-16 16:24:29,087 - DEBUG - Importing PcxImagePlugin
+2024-11-16 16:24:29,087 - DEBUG - Importing PdfImagePlugin
+2024-11-16 16:24:29,092 - DEBUG - Importing PixarImagePlugin
+2024-11-16 16:24:29,092 - DEBUG - Importing PngImagePlugin
+2024-11-16 16:24:29,092 - DEBUG - Importing PpmImagePlugin
+2024-11-16 16:24:29,092 - DEBUG - Importing PsdImagePlugin
+2024-11-16 16:24:29,093 - DEBUG - Importing QoiImagePlugin
+2024-11-16 16:24:29,093 - DEBUG - Importing SgiImagePlugin
+2024-11-16 16:24:29,094 - DEBUG - Importing SpiderImagePlugin
+2024-11-16 16:24:29,094 - DEBUG - Importing SunImagePlugin
+2024-11-16 16:24:29,095 - DEBUG - Importing TgaImagePlugin
+2024-11-16 16:24:29,095 - DEBUG - Importing TiffImagePlugin
+2024-11-16 16:24:29,095 - DEBUG - Importing WebPImagePlugin
+2024-11-16 16:24:29,096 - DEBUG - Importing WmfImagePlugin
+2024-11-16 16:24:29,097 - DEBUG - Importing XbmImagePlugin
+2024-11-16 16:24:29,098 - DEBUG - Importing XpmImagePlugin
+2024-11-16 16:24:29,098 - DEBUG - Importing XVThumbImagePlugin
+2024-11-16 16:24:29,100 - INFO - Tray icon created successfully
+2024-11-16 16:24:29,105 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:29,108 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:41,558 - INFO - Tray icon created successfully
+2024-11-16 16:24:41,563 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:41,566 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:49,878 - INFO - Tray icon created successfully
+2024-11-16 16:24:49,883 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:49,887 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:55,414 - INFO - Tray icon created successfully
+2024-11-16 16:24:55,419 - INFO - Window minimized to tray successfully
+2024-11-16 16:24:55,422 - INFO - Window minimized to tray successfully
+2024-11-16 16:25:02,497 - INFO - Tray icon created successfully
+2024-11-16 16:25:02,501 - INFO - Window minimized to tray successfully
+2024-11-16 16:25:02,504 - INFO - Window minimized to tray successfully

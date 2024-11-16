@@ -38,19 +38,11 @@ class TrayManager:
         self.tray_icon = None
         self.icon_path = self._get_icon_path()
         
-        # Bind window events when TrayManager is initialized
+        # Bind window events
         self.root.protocol("WM_DELETE_WINDOW", self.minimize_to_tray)
-        self.root.bind("<Unmap>", self._handle_minimize)
-        
-    def _handle_minimize(self, event):
-        """Handle the minimize event"""
-        # Check if window is being minimized and not already withdrawn
-        if self.root.state() == 'iconic' and not self.tray_icon:
-            self.minimize_to_tray()
-        return "break"
+        self.root.bind("<Unmap>", lambda e: self.minimize_to_tray() if e.widget is self.root else None)
         
     def _get_icon_path(self):
-        """Get the correct path for the icon file"""
         if getattr(sys, 'frozen', False):
             base_path = sys._MEIPASS
         else:
@@ -64,17 +56,25 @@ class TrayManager:
         
         try:
             icon_image = Image.open(self.icon_path)
+            
+            def left_click(icon, query):
+                self._show_window(icon, None)
+            
             menu = (
-                item('Show', self._show_window),
+                item('Show', self._show_window, default=True),  # Make Show the default action
                 item('Exit', self._exit_application)
             )
             
             self.tray_icon = pystray.Icon(
                 "PQManager",
                 icon_image,
-                "Printer Queue Manager",
+                "PQ Manager v1.1",
                 menu
             )
+            
+            # Set default action for left click
+            self.tray_icon.on_click = left_click
+            
             self.tray_icon.run_detached()
             logging.info("Tray icon created successfully")
             
@@ -84,29 +84,46 @@ class TrayManager:
 
     def _show_window(self, icon, item):
         """Show the main window and remove tray icon"""
-        if self.tray_icon:
-            self.tray_icon.visible = False
-            self.tray_icon.stop()
-            self.tray_icon = None
-        self.root.after(0, self._restore_window)
+        try:
+            if self.tray_icon:
+                self.tray_icon.visible = False
+                self.tray_icon.stop()
+                self.tray_icon = None
+            
+            self.root.after(0, self._restore_window)
+        except Exception as e:
+            logging.error(f"Error showing window: {e}")
 
     def _restore_window(self):
-        """Restore the main window"""
-        self.root.deiconify()
-        self.root.state('normal')  # Ensure window is in normal state
-        self.root.lift()
-        self.root.focus_force()
+        """Restore the main window and bring it to front"""
+        try:
+            self.root.deiconify()
+            self.root.state('normal')
+            self.root.lift()
+            self.root.focus_force()
+            
+            # Force window to top
+            self.root.attributes('-topmost', True)
+            self.root.update()
+            self.root.attributes('-topmost', False)
+        except Exception as e:
+            logging.error(f"Error restoring window: {e}")
 
     def minimize_to_tray(self, event=None):
         """Minimize the window to system tray"""
-        if not self.tray_icon:
-            self.create_tray_icon()
-        self.root.withdraw()
-        return "break"
+        try:
+            if not self.tray_icon:
+                self.create_tray_icon()
+            self.root.withdraw()
+            logging.info("Window minimized to tray successfully")
+        except Exception as e:
+            logging.error(f"Error minimizing to tray: {e}")
 
     def _exit_application(self, icon, item):
-        """Clean exit of the application"""
-        self.cleanup()
+        """Clean exit from the application"""
+        if self.tray_icon:
+            self.tray_icon.visible = False
+            self.tray_icon.stop()
         self.root.quit()
 
     def cleanup(self):
