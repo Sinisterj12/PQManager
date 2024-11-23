@@ -15,20 +15,20 @@ except ImportError:
 class PrinterManager:
     def __init__(self, config_manager):
         self.config_manager = config_manager
-        logging.info("Initializing PrinterManager")
-        # Check admin rights on startup
+        # Only log if not admin
         if not self.is_admin():
             logging.warning("Application is not running with administrator rights")
-        self._verify_win32_modules()
+        self._verify_win32_modules(silent=True)
 
-    def _verify_win32_modules(self):
+    def _verify_win32_modules(self, silent=False):
         """Verify all required win32 modules are available"""
         required_modules = ['win32print', 'win32api', 'win32con']
         missing_modules = []
         for module in required_modules:
             try:
                 __import__(module)
-                logging.info(f"Successfully loaded {module}")
+                if not silent:
+                    logging.info(f"Successfully loaded {module}")
             except ImportError as e:
                 missing_modules.append(module)
                 logging.error(f"Failed to load {module}: {e}")
@@ -52,13 +52,9 @@ class PrinterManager:
                 
                 jobs = win32print.EnumJobs(printer_handle, 0, -1, 1)
                 count = len(jobs)
-                logging.info(f"Queue length for {printer_name}: {count}")
-                
-                if count > 0:
-                    # Log job details
-                    for job in jobs:
-                        status_str = self._get_job_status_string(job['Status'])
-                        logging.info(f"Job {job['JobId']}: Status={status_str}, Document={job.get('pDocument', 'Unknown')}")
+                # Only log if there are multiple jobs in the queue
+                if count > 1:
+                    logging.info(f"Found {count} jobs in queue for {printer_name}")
                 return count
                 
             finally:
@@ -68,7 +64,6 @@ class PrinterManager:
         except Exception as e:
             logging.error(f"Failed to get queue length: {e}")
             if "win32timezone" in str(e):
-                logging.info("Attempting to continue without win32timezone...")
                 return self._get_queue_length_basic(printer_name)
             return 0
 
@@ -116,53 +111,59 @@ class PrinterManager:
     def clear_queue(self, printer_name):
         """Clear the print queue with enhanced error handling"""
         if not printer_name or printer_name == "Select Printer":
-            logging.warning("No printer selected for queue clearing")
-            return False
-
-        if not self.is_admin():
-            logging.error("Cannot clear queue: Administrator rights required")
             return False
 
         try:
-            logging.info(f"Attempting to open printer: {printer_name}")
             handle = {"DesiredAccess": win32print.PRINTER_ALL_ACCESS}
             printer_handle = win32print.OpenPrinter(printer_name, handle)
             
             try:
+                # Get printer info to check if it's a receipt printer
+                printer_info = win32print.GetPrinter(printer_handle, 2)
+                is_receipt_printer = any(keyword in printer_info['pDriverName'].lower() 
+                                      for keyword in ['receipt', 'pos', 'thermal', 'epson', 'star'])
+                
                 jobs = win32print.EnumJobs(printer_handle, 0, -1, 1)
                 if not jobs:
-                    logging.info(f"No jobs in queue for {printer_name}")
                     return True
 
-                logging.info(f"Found {len(jobs)} jobs to clear")
+                # Only log when we find multiple jobs
+                job_count = len(jobs)
+                if job_count > 1:
+                    logging.info(f"Found and clearing {job_count} jobs from {printer_name}")
+                
                 success = True
                 
                 for job in jobs:
                     try:
                         job_id = job['JobId']
-                        status_str = self._get_job_status_string(job['Status'])
-                        logging.info(f"Processing job {job_id} (Status: {status_str})")
+                        
+                        # For receipt printers, be more aggressive with completed jobs
+                        if is_receipt_printer and (job['Status'] & win32print.JOB_STATUS_PRINTED):
+                            try:
+                                win32print.SetJob(printer_handle, job_id, 0, None, win32print.JOB_CONTROL_DELETE)
+                                continue
+                            except Exception as e:
+                                logging.error(f"Failed to clear completed receipt job {job_id}: {e}")
                         
                         # Try to cancel first
                         try:
-                            logging.info(f"Attempting to cancel job {job_id}")
                             win32print.SetJob(printer_handle, job_id, 0, None, win32print.JOB_CONTROL_CANCEL)
-                            time.sleep(0.1)
+                            if is_receipt_printer:
+                                time.sleep(0.2)
                         except Exception as e:
                             if "parameter is incorrect" not in str(e).lower():
-                                logging.warning(f"Non-critical error canceling job {job_id}: {e}")
+                                logging.error(f"Failed to cancel job {job_id}: {e}")
                         
                         # Then try to delete
                         try:
-                            logging.info(f"Attempting to delete job {job_id}")
                             win32print.SetJob(printer_handle, job_id, 0, None, win32print.JOB_CONTROL_DELETE)
-                            logging.info(f"Successfully cleared job {job_id}")
+                            if is_receipt_printer:
+                                time.sleep(0.2)
                         except Exception as e:
                             if "parameter is incorrect" not in str(e).lower():
                                 logging.error(f"Failed to delete job {job_id}: {e}")
                                 success = False
-                            else:
-                                logging.info(f"Job {job_id} appears to be already cleared")
                         
                     except Exception as e:
                         if "parameter is incorrect" not in str(e).lower():
@@ -172,22 +173,49 @@ class PrinterManager:
                 # Verify queue is actually empty
                 remaining_jobs = win32print.EnumJobs(printer_handle, 0, -1, 1)
                 if remaining_jobs:
-                    logging.warning(f"{len(remaining_jobs)} jobs could not be cleared")
+                    if len(remaining_jobs) > 1:  # Only log if multiple jobs remained
+                        logging.error(f"{len(remaining_jobs)} jobs could not be cleared from {printer_name}")
                     success = False
-                else:
-                    logging.info("Queue verified empty - all jobs cleared successfully")
-                    success = True  # If queue is empty, consider it a success regardless of errors
-
+                elif job_count > 1:  # Only log success if we cleared multiple jobs
+                    logging.info(f"Successfully cleared {job_count} jobs from {printer_name}")
+                
                 return success
-
+                
             finally:
                 win32print.ClosePrinter(printer_handle)
-                logging.info("Printer handle closed")
-
+                
         except Exception as e:
-            logging.error(f"Printer access error: {e}")
-            if isinstance(e, win32print.error) and e.winerror == 5:
-                logging.error("Access denied - Administrator rights required")
+            logging.error(f"Failed to clear print queue: {e}")
+            return False
+
+    def check_queue(self, printer_name):
+        """Check and clear the print queue for the specified printer"""
+        try:
+            printer_handle = win32print.OpenPrinter(printer_name)
+            try:
+                # Get printer status
+                printer_info = win32print.GetPrinter(printer_handle, 2)
+                status = printer_info['Status']
+                
+                if status & win32print.PRINTER_STATUS_OFFLINE:
+                    logging.warning(f"Printer {printer_name} is offline")
+                    return False
+                    
+                # Check for jobs
+                jobs = win32print.EnumJobs(printer_handle, 0, -1, 1)
+                if jobs:
+                    logging.info(f"Found {len(jobs)} jobs in queue for {printer_name}")
+                    # Clear the queue
+                    win32print.SetPrinter(printer_handle, 0, None, win32print.PRINTER_CONTROL_PURGE)
+                    logging.info(f"Successfully cleared {len(jobs)} jobs from {printer_name}")
+                    return True
+                return False
+                    
+            finally:
+                win32print.ClosePrinter(printer_handle)
+                
+        except Exception as e:
+            logging.error(f"Error checking/clearing queue for {printer_name}: {str(e)}")
             return False
 
     def is_admin(self):

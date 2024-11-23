@@ -42,13 +42,11 @@ class ConfigManager:
             if os.path.exists(self.config_file):
                 with open(self.config_file, 'r') as f:
                     settings = json.load(f)
-                    logging.info(f"Loaded settings: {settings}")
-                    return settings
+                return settings
+            return {}
         except Exception as e:
             logging.error(f"Error loading settings: {e}")
-        
-        logging.info("Using default settings")
-        return self.default_settings.copy()
+            return {}
 
     def save_settings(self, settings):
         """Save settings to config file"""
@@ -57,15 +55,17 @@ class ConfigManager:
             os.makedirs(os.path.dirname(self.config_file), exist_ok=True)
             
             with open(self.config_file, 'w') as f:
-                json.dump(settings, f, indent=4)
-            logging.info(f"Saved settings: {settings}")
-            return True
+                json.dump(settings, f)
         except Exception as e:
             logging.error(f"Error saving settings: {e}")
-            return False
 
     def update_setting(self, key, value):
         """Update a single setting"""
         settings = self.load_settings()
         settings[key] = value
         return self.save_settings(settings)
+
+    def get_setting(self, key, default=None):
+        """Get a single setting with optional default value"""
+        settings = self.load_settings()
+        return settings.get(key, default)

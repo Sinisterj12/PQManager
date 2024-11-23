@@ -57,9 +57,6 @@ class TrayManager:
         try:
             icon_image = Image.open(self.icon_path)
             
-            def left_click(icon, query):
-                self._show_window(icon, None)
-            
             menu = (
                 item('Show', self._show_window, default=True),  # Make Show the default action
                 item('Exit', self._exit_application)
@@ -72,15 +69,15 @@ class TrayManager:
                 menu
             )
             
-            # Set default action for left click
-            self.tray_icon.on_click = left_click
-            
+            # Run in detached mode
             self.tray_icon.run_detached()
             logging.info("Tray icon created successfully")
             
         except Exception as e:
-            logging.error(f"Error creating tray icon: {e}")
-            raise
+            logging.error(f"Error creating tray icon: {e}", exc_info=True)
+            # Don't raise the error - allow the application to continue without tray icon
+            return False
+        return True
 
     def _show_window(self, icon, item):
         """Show the main window and remove tray icon"""
@@ -122,6 +119,7 @@ class TrayManager:
     def _exit_application(self, icon, item):
         """Clean exit from the application"""
         try:
+            logging.info("User initiated application exit from system tray")
             # Stop the tray icon first
             if self.tray_icon:
                 self.tray_icon.visible = False
@@ -138,19 +136,23 @@ class TrayManager:
     def _perform_exit(self):
         """Perform the actual exit operations"""
         try:
+            logging.info("Performing application shutdown...")
             # Destroy the root window
             self.root.quit()
             self.root.destroy()
+            logging.info("Application exited successfully")
         except Exception as e:
             logging.error(f"Error during window destruction: {e}")
             # Force exit if needed
             import sys
+            logging.info("Forcing application exit")
             sys.exit(0)
 
     def cleanup(self):
         """Clean up resources"""
         if self.tray_icon:
             try:
+                logging.info("Cleaning up system tray resources")
                 self.tray_icon.visible = False
                 self.tray_icon.stop()
                 self.tray_icon = None
