@@ -3,8 +3,8 @@
 <div align="center">
   <img src="https://img.shields.io/github/license/Sinisterj12/PQManager?style=for-the-badge&color=2563eb" alt="License" />
   <img src="https://img.shields.io/github/last-commit/Sinisterj12/PQManager?style=for-the-badge&color=16a34a" alt="Last Commit" />
-  <img src="https://img.shields.io/badge/Platform-Windows?style=for-the-badge&color=0f766e" alt="Platform" />
-  <img src="https://img.shields.io/badge/Status-Stable%20Utility?style=for-the-badge&color=f59e0b" alt="Status" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0f766e?style=for-the-badge" alt="Platform" />
+  <img src="https://img.shields.io/badge/Status-Stable%20Utility-f59e0b?style=for-the-badge" alt="Status" />
 </div>
 
 <p align="center">
