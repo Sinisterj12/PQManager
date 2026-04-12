@@ -13,107 +13,76 @@
 
 ---
 
-## 🚀 Overview
+### 🚀 Overview
+**PQManager**, short for **Printer Queue Manager**, was built to solve a real customer issue involving a legacy NCR virtual terminal setup where print jobs would continuously stack, stall printing, and create repeated support issues throughout the day and overnight.
 
-**PQManager**, short for **Printer Queue Manager**, was built to solve a real customer issue involving a legacy NCR virtual terminal setup where print jobs would continuously stack, stall printing, and create repeated support issues throughout the day and even overnight.
-
-When vendor support did not provide a working solution, this tool was built as a practical fix. It runs quietly in the system tray, monitors the selected printer queue, and clears stuck jobs on a recurring cycle so printing remains stable without constant manual intervention.
+When vendor support did not provide a working solution, this tool was built as a practical workaround. It runs quietly in the system tray, monitors the selected printer queue, and clears stuck jobs on a recurring cycle so printing stays stable without constant manual intervention.
 
 > [!IMPORTANT]
-> This tool is designed for Windows environments and is intended to run as a tray-based executable for continuous background operation.
+> This tool is designed for **Windows environments** and is intended to run as a tray-based executable for continuous background operation.
 
 ---
 
-## ✨ What it is built to do
-
-* Prevent printer queues from filling up and blocking printing
-* Reduce repeated support calls caused by stuck print jobs
-* Run silently in the system tray after launch
-* Automatically monitor and clear the target printer queue
-* Provide logs for troubleshooting when needed
-
----
-
-## 🛠️ Key Features
-
-* 🖨️ **Automatic Queue Monitoring**
-* 🔄 **Recurring Cleanup Cycle**
-* 🎯 **Targeted Printer Selection**
-* 🧩 **System Tray Operation**
-* 💾 **Settings Persistence**
-* 📊 **Logging for Troubleshooting**
+### ✨ Key Features
+- 🖨️ **Automatic Queue Monitoring:** Watches the selected printer queue and reacts before jobs pile up long enough to stall operations.
+- 🔄 **Recurring Cleanup Cycle:** Repeatedly clears stuck jobs so staff do not have to babysit printing.
+- 🎯 **Targeted Printer Selection:** Focuses on the problem printer instead of acting like a broad system-wide cleanup tool.
+- 🧩 **System Tray Operation:** Runs quietly in the background after launch.
+- 💾 **Settings Persistence:** Remembers the chosen printer and saved preferences.
+- 📊 **Logging for Troubleshooting:** Keeps useful records when support needs to review behavior.
 
 ---
 
-## ⚡ Why it matters
-
+### ⚡ Why It Matters
 This is not a generic print utility.
 
-It was built because a real production environment was failing, the issue kept coming back, and support needed a reliable workaround that could run quietly and keep operations moving without constant intervention.
+It was built because a real production environment was failing, the issue kept returning, and support needed a reliable fix that could run quietly and keep operations moving without constant intervention.
 
-It has continued doing that job for years without recurring issues.
-
----
-
-## 📥 Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Sinisterj12/PQManager.git
-   cd PQManager
-   ```
-
-2. Create and activate a virtual environment:
-
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+PQManager has been doing exactly that for years without recurring issues.
 
 ---
 
-## ▶️ Usage
+### 🛠️ Quick Start
 
+#### 📥 Installation
+```bash
+git clone https://github.com/Sinisterj12/PQManager.git
+cd PQManager
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+#### ▶️ Usage
 Launch the compiled executable or run the Python entrypoint directly.
 
-Once started, PQManager:
-
-* minimizes to the system tray
-* monitors the selected printer queue
-* clears stuck print jobs automatically
-* logs activity in the background
+| Behavior | What it does |
+| :--- | :--- |
+| Tray Startup | Minimizes to the system tray after launch |
+| Queue Monitoring | Watches the selected printer queue |
+| Automatic Cleanup | Clears stuck print jobs automatically |
+| Background Logging | Records activity for troubleshooting |
 
 ---
 
-## ⚙️ Configuration
+### ⚙️ Configuration
+Settings are stored in `%APPDATA%\PQManager\settings.json`.
 
-Settings are stored in:
-
-```text
-%APPDATA%\PQManager\settings.json
+```json
+{
+  "selected_printer": "Target Printer",
+  "monitoring_enabled": true
+}
 ```
 
 ---
 
-## 📜 Logging
-
-Logs are stored in:
-
-```text
-logs/printer_queue.log
-```
+### 📜 Logging
+Logs are stored in `logs/printer_queue.log`.
 
 ---
 
-## 📄 License
-
+### 📄 License
 [MIT License](LICENSE)
 
 ---
