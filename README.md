@@ -1,7 +1,7 @@
 # PQManager (Printer Queue Manager) 🖨️
 
 <div align="center">
-  <img src="https://img.shields.io/github/license/Sinisterj12/PQManager?style=for-the-badge&color=2563eb" alt="License" />
+  <img src="https://img.shields.io/badge/License-MIT-2563eb?style=for-the-badge" alt="License" />
   <img src="https://img.shields.io/github/last-commit/Sinisterj12/PQManager?style=for-the-badge&color=16a34a" alt="Last Commit" />
   <img src="https://img.shields.io/badge/Platform-Windows-0f766e?style=for-the-badge" alt="Platform" />
   <img src="https://img.shields.io/badge/Status-Stable%20Utility-f59e0b?style=for-the-badge" alt="Status" />
