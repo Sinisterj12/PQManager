@@ -1,109 +1,123 @@
-# PQ Manager (Printer Queue Manager)
+# PQManager (Printer Queue Manager) 🖨️
 
-A lightweight Windows application designed to automatically manage and clear printer queues, specifically optimized for grocery store environments.
+<div align="center">
+  <img src="https://img.shields.io/github/license/Sinisterj12/PQManager?style=for-the-badge&color=2563eb" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/Sinisterj12/PQManager?style=for-the-badge&color=16a34a" alt="Last Commit" />
+  <img src="https://img.shields.io/badge/Platform-Windows?style=for-the-badge&color=0f766e" alt="Platform" />
+  <img src="https://img.shields.io/badge/Status-Stable%20Utility?style=for-the-badge&color=f59e0b" alt="Status" />
+</div>
 
-## Features
+<p align="center">
+  A tray-based Windows utility built to keep broken print queues from disrupting real store operations.
+</p>
 
-- 🖨️ Automatic printer queue monitoring and clearing
-- 🔄 10-second monitoring cycle
-- 🎯 Multiple printer support
-- 💾 Settings persistence
-- 🚀 Automatic startup option
-- 🔒 Administrative rights handling
-- 📊 Detailed logging for troubleshooting
+---
 
-## Requirements
+## 🚀 Overview
 
-- Windows OS
-- Python 3.12 or higher
-- Administrator rights (for printer management)
+**PQManager**, short for **Printer Queue Manager**, was built to solve a real customer issue involving a legacy NCR virtual terminal setup where print jobs would continuously stack, stall printing, and create repeated support issues throughout the day and even overnight.
 
-## Installation
+When vendor support did not provide a working solution, this tool was built as a practical fix. It runs quietly in the system tray, monitors the selected printer queue, and clears stuck jobs on a recurring cycle so printing remains stable without constant manual intervention.
+
+> [!IMPORTANT]
+> This tool is designed for Windows environments and is intended to run as a tray-based executable for continuous background operation.
+
+---
+
+## ✨ What it is built to do
+
+* Prevent printer queues from filling up and blocking printing
+* Reduce repeated support calls caused by stuck print jobs
+* Run silently in the system tray after launch
+* Automatically monitor and clear the target printer queue
+* Provide logs for troubleshooting when needed
+
+---
+
+## 🛠️ Key Features
+
+* 🖨️ **Automatic Queue Monitoring**
+* 🔄 **Recurring Cleanup Cycle**
+* 🎯 **Targeted Printer Selection**
+* 🧩 **System Tray Operation**
+* 💾 **Settings Persistence**
+* 📊 **Logging for Troubleshooting**
+
+---
+
+## ⚡ Why it matters
+
+This is not a generic print utility.
+
+It was built because a real production environment was failing, the issue kept coming back, and support needed a reliable workaround that could run quietly and keep operations moving without constant intervention.
+
+It has continued doing that job for years without recurring issues.
+
+---
+
+## 📥 Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/PQManager.git
+   git clone https://github.com/Sinisterj12/PQManager.git
    cd PQManager
    ```
 
 2. Create and activate a virtual environment:
+
    ```bash
    python -m venv venv
    .\venv\Scripts\activate
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-## Building the Executable
+---
 
-To build the standalone executable:
+## ▶️ Usage
 
-```bash
-pyinstaller PQManager.spec
+Launch the compiled executable or run the Python entrypoint directly.
+
+Once started, PQManager:
+
+* minimizes to the system tray
+* monitors the selected printer queue
+* clears stuck print jobs automatically
+* logs activity in the background
+
+---
+
+## ⚙️ Configuration
+
+Settings are stored in:
+
+```text
+%APPDATA%\PQManager\settings.json
 ```
 
-The executable will be created in the `dist` folder.
+---
 
-## Usage
+## 📜 Logging
 
-1. Run the application as Administrator
-2. Select your receipt printer from the dropdown
-3. The application will automatically:
-   - Monitor the printer queue every 10 seconds
-   - Clear any stuck print jobs
-   - Minimize to system tray
+Logs are stored in:
 
-## Configuration
-
-Settings are stored in: `%APPDATA%\PQManager\settings.json`
-- Selected printer
-- Monitoring interval
-- Startup preferences
-
-## Logging
-
-Logs are stored in: `logs/printer_queue.log`
-- Queue operations
-- Error messages
-- Printer status
-
-## Development
-
-### Project Structure
-```
-/PQManager
-├── main.py             # Entry point
-├── bootstrap.py        # Import and environment setup
-├── src/
-│   ├── main.py         # Core application logic
-│   ├── printer_manager.py  # Printer queue operations
-│   ├── tray_manager.py     # System tray handling
-│   └── config_manager.py   # Settings persistence
-├── assets/
-│   └── Logo.ico        # Application icon
-└── dist/
-    └── PQManager.exe   # Compiled executable
+```text
+logs/printer_queue.log
 ```
 
-### Contributing
+---
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
+## 📄 License
 
 [MIT License](LICENSE)
 
-## Author
+---
 
-James
-
-## Support
-
-For support, please check the logs at `logs/printer_queue.log` first, then open an issue on GitHub.
+<div align="center">
+  <sub>Built by <a href="https://github.com/Sinisterj12">Sinisterj12</a></sub>
+</div>
